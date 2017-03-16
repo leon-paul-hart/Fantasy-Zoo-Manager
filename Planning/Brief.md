@@ -7,7 +7,8 @@ You have been asked to create a zoo management app so that we can manage our dra
 ## MVP
 
 The user must be able to **add enclosures**, **add / remove animals**, **feed animals** and anything else you can dream up!
-Project Extensions
+
+## Project Extensions
 
     * Animals cannot be placed in the same enclosure if they would eat one and other.
     * Animal babies can be sold(!) to other zoos :/
