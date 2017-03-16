@@ -13,14 +13,14 @@ MoS-CoW method : MUST have, SHOULD have, COULD have, WONT have but would like.
 * Zoo can add enclosures.
 * Zoo can remove enclosures.
 
-## SHOULD
+# SHOULD
 
 * Animal Hungry/Not Hungry trait.
 * Animal has friends/enemies trait.
 * Animal has enclosure requirements.
 * Zoo can create different types of enclosure.
 
-## COULD
+# COULD
 
 * Animal has food types it likes.
 * Animal has food types it dislikes.
