@@ -1,7 +1,7 @@
 MoS-CoW method : MUST have, SHOULD have, COULD have, WONT have but would like.
 
-#MUST#
-##Minimum Viable Product Requirements:##
+#MUST
+##Minimum Viable Product Requirements:
 
 * Zoo has animals.
 * Zoo can feed animals.
@@ -13,22 +13,22 @@ MoS-CoW method : MUST have, SHOULD have, COULD have, WONT have but would like.
 * Zoo can add enclosures.
 * Zoo can remove enclosures.
 
-##SHOULD##
+##SHOULD
 
 * Animal Hungry/Not Hungry trait.
 * Animal has friends/enemies trait.
 * Animal has enclosure requirements.
 * Zoo can create different types of enclosure.
 
-##COULD##
+##COULD
 
 * Animal has food types it likes.
 * Animal has food types it dislikes.
-* 
+*
 
 
-#WONT but WANT!#
-##Extras##
+#WONT but WANT!
+##Extras
 
 * Zoo cannot place animals that would eat each other in the same enclosure.
   + Zoo must therefore have list of animal predator/prey traits.
