@@ -3,7 +3,8 @@
 ## Goal: Practice OO modelling in Java (unit tests, no UI)
 
 You have been asked to create a zoo management app so that we can manage our dragons, unicorns and other mystical beings.
-MVP
+
+## MVP
 
 The user must be able to **add enclosures**, **add / remove animals**, **feed animals** and anything else you can dream up!
 Project Extensions
