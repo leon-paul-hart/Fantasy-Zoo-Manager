@@ -24,8 +24,6 @@ MoS-CoW method : MUST have, SHOULD have, COULD have, WONT have but would like.
 
 * Animal has food types it likes.
 * Animal has food types it dislikes.
-*
-
 
 # WONT but WANT!
 ## Extras
@@ -42,7 +40,6 @@ MoS-CoW method : MUST have, SHOULD have, COULD have, WONT have but would like.
 * Visitors can enter / exit zoo if there are tickets left.
   + Zoo must have ticketing system.
   + Guests must have money.
-  +
 
 * View the total income of the zoo.
 * Animals can randomly go on a rampage and break out from their enclosures.
