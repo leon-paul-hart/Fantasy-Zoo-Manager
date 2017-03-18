@@ -16,4 +16,9 @@ public class EnclosureTest {
     assertEquals( "Volcanic Cave" , enclosure.getEnclosureName() );
   }
 
+  @Test
+  public void getEnclosureTypeTest() {
+    assertEquals( "Fire" , enclosure.getEnclosureType() );
+  }
+
 }

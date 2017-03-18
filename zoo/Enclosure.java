@@ -1,20 +1,24 @@
 package zoo;
 
 public class Enclosure {
-  private String name;
+  private String enclosure;
   private String type;
   private int capacity;
   private String resident;
 
-  public Enclosure( String name , String type , int capacity , String resident ) {
-    this.name = name;
+  public Enclosure( String enclosure , String type , int capacity , String resident ) {
+    this.enclosure = enclosure;
     this.type = type;
     this.capacity = capacity;
     this.resident = resident;
   }
 
   public String getEnclosureName() {
-    return this.name;
+    return this.enclosure;
+  }
+
+  public String getEnclosureType() {
+    return this.type;
   }
 
 }
