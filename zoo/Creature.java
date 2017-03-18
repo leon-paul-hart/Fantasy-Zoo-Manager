@@ -23,4 +23,8 @@ public class Creature {
     return this.type;
   }
 
+  public String getMagicalAffinity() {
+    return this.magicalaffinity;
+  }
+
 }

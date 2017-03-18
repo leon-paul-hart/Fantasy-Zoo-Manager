@@ -21,4 +21,9 @@ public class CreatureTest {
     assertEquals( "Dragon" , creature.getType() );
   }
 
+  @Test
+  public void getMagicalAffinityTest() {
+    assertEquals( "Fire" , creature.getMagicalAffinity() );
+  }
+
 }
