@@ -26,4 +26,9 @@ public class CreatureTest {
     assertEquals( "Fire" , creature.getMagicalAffinity() );
   }
 
+  @Test
+  public void getIsHungryTrueTest() {
+    assertEquals( true , creature.getIsHungryTrue() );
+  }
+
 }
