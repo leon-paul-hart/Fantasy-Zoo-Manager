@@ -4,4 +4,6 @@ import zoo.*;
 
 public class ZooTest {
 
+  Zoo zoo;
+
 }
