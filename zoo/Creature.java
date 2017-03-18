@@ -1,14 +1,14 @@
 package zoo;
 
 public class Creature {
-  private String name;
+  private String enclosure;
   private String type;
   private String magicalaffinity;
   private boolean isHungry;
   private boolean hasEnclosure;
 
-  public Creature( String name , String type , String magicalaffinity , Boolean isHungry , Boolean hasEnclosure ) {
-    this.name = name;
+  public Creature( String enclosure , String type , String magicalaffinity , Boolean isHungry , Boolean hasEnclosure ) {
+    this.enclosure = enclosure;
     this.type = type;
     this.magicalaffinity = magicalaffinity;
     this.isHungry = isHungry;
@@ -16,7 +16,7 @@ public class Creature {
   }
 
   public String getName() {
-    return this.name;
+    return this.enclosure;
   }
 
   public String getType() {
