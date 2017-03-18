@@ -21,4 +21,9 @@ public class EnclosureTest {
     assertEquals( "Fire" , enclosure.getEnclosureType() );
   }
 
+  @Test
+  public void getEnclosureCapacityTest() {
+    assertEquals( 3 , enclosure.getEnclosureCapacity() );
+  }
+
 }

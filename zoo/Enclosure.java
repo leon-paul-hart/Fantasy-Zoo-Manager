@@ -21,4 +21,8 @@ public class Enclosure {
     return this.type;
   }
 
+  public int getEnclosureCapacity() {
+    return this.capacity;
+  }
+
 }
