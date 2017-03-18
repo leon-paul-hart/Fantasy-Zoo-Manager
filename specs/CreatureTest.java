@@ -27,8 +27,13 @@ public class CreatureTest {
   }
 
   @Test
-  public void getIsHungryTrueTest() {
-    assertEquals( true , creature.getIsHungryTrue() );
+  public void getIsHungryEqualsTrueTest() {
+    assertEquals( true , creature.getIsHungry() );
+  }
+
+  @Test
+  public void getHasEnclosureEqualsTrueTest() {
+    assertEquals( true , creature.getHasEnclosure() );
   }
 
 }

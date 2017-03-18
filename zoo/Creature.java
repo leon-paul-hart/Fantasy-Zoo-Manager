@@ -27,8 +27,12 @@ public class Creature {
     return this.magicalaffinity;
   }
 
-  public Boolean getIsHungryTrue() {
+  public Boolean getIsHungry() {
     return this.isHungry;
+  }
+
+  public Boolean getHasEnclosure() {
+    return this.hasEnclosure;
   }
 
 }
