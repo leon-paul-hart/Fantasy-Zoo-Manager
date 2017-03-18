@@ -16,4 +16,9 @@ public class CreatureTest {
     assertEquals( "Morchock" , creature.getName() );
   }
 
+  @Test
+  public void getTypeTest() {
+    assertEquals( "Dragon" , creature.getType() );
+  }
+
 }
