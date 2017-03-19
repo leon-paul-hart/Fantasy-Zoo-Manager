@@ -26,4 +26,9 @@ public class EnclosureTest {
     assertEquals( 3 , enclosure.getEnclosureCapacity() );
   }
 
+  @Test
+  public void getEnclosureResidentTest() {
+    assertEquals( "Morchock" , enclosure.getEnclosureResident() );
+  }
+
 }

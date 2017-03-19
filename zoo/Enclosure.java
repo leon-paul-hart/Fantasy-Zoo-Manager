@@ -25,4 +25,8 @@ public class Enclosure {
     return this.capacity;
   }
 
+  public String getEnclosureResident() {
+    return this.resident;
+  }
+
 }
