@@ -1,6 +1,14 @@
 package zoo;
 
 public class Zoo {
-  private Creature creature;
-  private Enclosure enclosure;
+  private String name;
+
+  public Zoo( String name ) {
+    this.name = name;
+  }
+
+  public String getName() {
+    return this.name;
+  }
+
 }
