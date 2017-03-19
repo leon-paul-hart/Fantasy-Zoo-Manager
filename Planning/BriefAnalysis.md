@@ -5,38 +5,38 @@ MoS-CoW method : MUST have, SHOULD have, COULD have, WONT have but would like.
 ## MUST have.
 ### Minimum Viable Product Requirements:
 
-* Zoo has animals.
-* Zoo can feed animals.
-* Zoo can add animals.
-* Zoo can remove animals.
-* Zoo can add animals to an enclosure.
-* Zoo can remove animals from an enclosure.
-* Zoo can move animals to a different enclosure.
+* Zoo has creatures.
+* Zoo can feed creatures.
+* Zoo can add creatures.
+* Zoo can remove creatures.
+* Zoo can add creatures to an enclosure.
+* Zoo can remove creatures from an enclosure.
+* Zoo can move creatures to a different enclosure.
 * Zoo can add enclosures.
 * Zoo can remove enclosures.
 
 ## SHOULD have.
 
-* Animal Hungry/Not Hungry trait.
-* Animal has friends/enemies trait.
-* Animal has enclosure requirements.
+* Creature Hungry/Not Hungry trait.
+* Creature has friends/enemies trait.
+* Creature has enclosure requirements.
 * Zoo can create different types of enclosure.
 
 ## COULD have.
 
-* Animal has food types it likes.
-* Animal has food types it dislikes.
+* Creature has food types it likes.
+* Creature has food types it dislikes.
 
 ## WONT have, but WANT to add.
 ### Extras.
 
-* Zoo cannot place animals that would eat each other in the same enclosure.
+* Zoo cannot place creatures that would eat each other in the same enclosure.
   + Zoo must therefore have list of animal predator/prey traits.
-  + Animals will have to have predator/prey traits.
+  + Creatures will have to have predator/prey traits.
 
-* Animal babies can be sold to other zoos.
-  + Zoo must be able to breed animals.
-  + Animals will need genders? and/or breeding traits.
+* Creature babies can be sold to other zoos.
+  + Zoo must be able to breed creatures.
+  + Creatures will need genders? and/or breeding traits.
   + Hybrids?
 
 * Visitors can enter / exit zoo if there are tickets left.
@@ -44,4 +44,4 @@ MoS-CoW method : MUST have, SHOULD have, COULD have, WONT have but would like.
   + Guests must have money.
 
 * View the total income of the zoo.
-* Animals can randomly go on a rampage and break out from their enclosures.
+* Creatures can randomly go on a rampage and break out from their enclosures.
