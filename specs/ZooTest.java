@@ -2,6 +2,8 @@ import static org.junit.Assert.*;
 import org.junit.*;
 import zoo.*;
 
+import java.util.*;
+
 public class ZooTest {
 
   Zoo zoo;
@@ -11,7 +13,7 @@ public class ZooTest {
   @Before
   public void before() {
     zoo = new Zoo( "Zizis Zodiac Ziggarut!" );
-    creature = new Creature( "Morchock" , "Dragon" , "Fire" , true , true );
+    creature = new Creature( "Morchock" , "Dragon" , "Fire" , new ArrayList<FoodTypes>() , true , true );
     enclosure = new Enclosure( "Volcanic Cave" , "Fire" , 3 , "Morchock" );
   }
 
@@ -31,5 +33,11 @@ public class ZooTest {
     zoo.addEnclosure(enclosure);
     assertEquals( 1 , zoo.countEnclosures() );
   }
+
+  // @Test
+  // public void feedCreatureTest() {
+  //   zoo.feedCreature(creature);
+  //   assertEquals( false , creature.getIsHungry() );
+  // }
 
 }

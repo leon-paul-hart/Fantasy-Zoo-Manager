@@ -12,9 +12,13 @@ public class Zoo {
     this.enclosures = new ArrayList<Enclosure>();
   }
 
+  // Zoo Methods
+
   public String getName() {
     return this.name;
   }
+
+  // Zoo+Creature Methods
 
   public void addCreature(Creature creature) {
     creatures.add(creature);
@@ -23,6 +27,12 @@ public class Zoo {
   public int countCreatures() {
     return creatures.size();
   }
+
+  // public boolean feedCreature(Creature creature) {
+  //
+  // }
+
+  // Zoo+Enclosure Methods
 
   public void addEnclosure(Enclosure enclosure) {
     enclosures.add(enclosure);

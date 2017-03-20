@@ -1,6 +1,7 @@
 import static org.junit.Assert.*;
 import org.junit.*;
 import zoo.*;
+import java.util.*;
 
 public class CreatureTest {
 
@@ -8,7 +9,7 @@ public class CreatureTest {
 
   @Before
   public void before() {
-    creature = new Creature( "Morchock" , "Dragon" , "Fire" , true , true );
+    creature = new Creature( "Morchock" , "Dragon" , "Fire" , new ArrayList<FoodTypes>() , true , true );
   }
 
   @Test
@@ -24,6 +25,11 @@ public class CreatureTest {
   @Test
   public void getMagicalAffinityTest() {
     assertEquals( "Fire" , creature.getMagicalAffinity() );
+  }
+
+  @Test
+  public void getStomachContentsTest() {
+    assertEquals( 0 , creature.getStomachContents() );
   }
 
   @Test
