@@ -6,7 +6,7 @@ MoS-CoW method : MUST have, SHOULD have, COULD have, WONT have but would like.
 ### Minimum Viable Product Requirements:
 
 * ~~Zoo has creatures.~~
-* Zoo can feed creatures.
+* ~~Zoo can feed creatures.~~
 * ~~Zoo can add creatures.~~
 * Zoo can remove creatures.
 * Zoo can add creatures to an enclosure.

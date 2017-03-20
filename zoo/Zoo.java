@@ -30,7 +30,7 @@ public class Zoo {
 
   public int feedCreature( Creature creature , FoodTypes food ) {
 
-    if(creature.getIsHungry() ) {
+    if( creature.getIsHungry() ) {
       creature.eat(food);
     }
     return creature.getStomachContents();
