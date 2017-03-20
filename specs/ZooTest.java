@@ -56,4 +56,9 @@ public class ZooTest {
     assertEquals( 1 , creature.getStomachContents() );
   }
 
+  @Test
+  public void getEnclosureCreatureCountTest() {
+    assertEquals( 0 , zoo.getEnclosureCreatureCount("Volcanic Cave") );
+  }
+
 }

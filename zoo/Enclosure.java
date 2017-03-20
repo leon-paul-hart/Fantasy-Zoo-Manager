@@ -3,20 +3,20 @@ package zoo;
 import java.util.*;
 
 public class Enclosure {
-  private String enclosure;
+  private String enclosureName;
   private String type;
   private int maximumCapacity;
   private ArrayList<Creature> creatures;
 
-  public Enclosure( String enclosure , String type , int maximumcapacity ) {
-    this.enclosure = enclosure;
+  public Enclosure( String enclosureName , String type , int maximumcapacity ) {
+    this.enclosureName = enclosureName;
     this.type = type;
     this.maximumCapacity = maximumcapacity;
     this.creatures = new ArrayList<Creature>();
   }
 
   public String getEnclosureName() {
-    return this.enclosure;
+    return this.enclosureName;
   }
 
   public String getEnclosureType() {

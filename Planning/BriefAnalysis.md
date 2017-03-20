@@ -19,7 +19,7 @@ MoS-CoW method : MUST have, SHOULD have, COULD have, WONT have but would like.
 
 ## SHOULD have.
 
-* Creature Hungry/Not Hungry trait.
+* ~~Creature Hungry/Not Hungry trait.~~
 * Creature has friends/enemies trait.
 * Creature has enclosure requirements.
 * Zoo can create different types of enclosure.

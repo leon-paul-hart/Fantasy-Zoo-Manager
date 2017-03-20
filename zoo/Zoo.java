@@ -56,6 +56,13 @@ public class Zoo {
 
   // Zoo+Creature+Enclosure Methods
 
-  
+  public int getEnclosureCreatureCount(String enclosureName) {
+    for(Enclosure enclosure : this.enclosures ) {
+      if( enclosure.getEnclosureName().equals(enclosureName) ) {
+        return enclosure.getEnclosureCreatures().size();
+      }
+    }
+    return 0;
+  }
 
 }

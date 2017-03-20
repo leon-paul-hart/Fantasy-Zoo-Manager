@@ -11,9 +11,9 @@ public class EnclosureTest {
 
   @Before
   public void before() {
+    enclosure = new Enclosure( "Volcanic Cave" , "Fire" , 3 );
     creature = new Creature( "Morchock" , "Dragon" , "Fire" );
     creatures = new ArrayList<Creature>();
-    enclosure = new Enclosure( "Volcanic Cave" , "Fire" , 3 );
   }
 
   @Test
