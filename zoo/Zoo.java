@@ -54,4 +54,8 @@ public class Zoo {
     return enclosures.size();
   }
 
+  // Zoo+Creature+Enclosure Methods
+
+  
+
 }
