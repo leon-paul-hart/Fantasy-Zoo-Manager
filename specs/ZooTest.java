@@ -14,8 +14,8 @@ public class ZooTest {
   @Before
   public void before() {
     zoo = new Zoo( "Zizis Zodiac Ziggarut!" );
-    creature = new Creature( "Morchock" , "Dragon" , "Fire" , new ArrayList<FoodTypes>() , true , true );
-    enclosure = new Enclosure( "Volcanic Cave" , "Fire" , 3 , "Morchock" );
+    creature = new Creature( "Morchock" , "Dragon" , "Fire" );
+    enclosure = new Enclosure( "Volcanic Cave" , "Fire" , 3 );
     food = new PiriPiriChicken();
   }
 
@@ -49,7 +49,7 @@ public class ZooTest {
     zoo.removeEnclosure(enclosure);
     assertEquals( 0 , zoo.countEnclosures() );
   }
-  
+
   @Test
   public void feedCreatureTest() {
     zoo.feedCreature( creature , food );

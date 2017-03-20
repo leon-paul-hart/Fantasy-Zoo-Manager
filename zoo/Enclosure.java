@@ -1,16 +1,18 @@
 package zoo;
 
+import java.util.*;
+
 public class Enclosure {
   private String enclosure;
   private String type;
-  private int capacity;
-  private String resident;
+  private int maximumCapacity;
+  private ArrayList<Creature> creatures;
 
-  public Enclosure( String enclosure , String type , int capacity , String resident ) {
+  public Enclosure( String enclosure , String type , int maximumcapacity ) {
     this.enclosure = enclosure;
     this.type = type;
-    this.capacity = capacity;
-    this.resident = resident;
+    this.maximumCapacity = maximumcapacity;
+    this.creatures = new ArrayList<Creature>();
   }
 
   public String getEnclosureName() {
@@ -21,12 +23,12 @@ public class Enclosure {
     return this.type;
   }
 
-  public int getEnclosureCapacity() {
-    return this.capacity;
+  public int getEnclosureMaxCapacity() {
+    return this.maximumCapacity;
   }
 
-  public String getEnclosureResident() {
-    return this.resident;
+  public ArrayList<Creature> getEnclosureCreatures() {
+    return this.creatures;
   }
 
 }

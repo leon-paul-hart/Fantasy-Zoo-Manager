@@ -20,7 +20,7 @@ end
 def run_tests directories
   for directory in directories
     puts "building #{directory}"
-    system("javac -d bin #{directory}/*.java")
+    system("javac -Xdiags:verbose -d bin #{directory}/*.java")
   end
 end
 

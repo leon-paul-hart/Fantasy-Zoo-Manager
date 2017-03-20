@@ -1,14 +1,19 @@
 import static org.junit.Assert.*;
 import org.junit.*;
 import zoo.*;
+import java.util.*;
 
 public class EnclosureTest {
 
   Enclosure enclosure;
+  Creature creature;
+  ArrayList<Creature> creatures;
 
   @Before
   public void before() {
-    enclosure = new Enclosure( "Volcanic Cave" , "Fire" , 3 , "Morchock" );
+    creature = new Creature( "Morchock" , "Dragon" , "Fire" );
+    creatures = new ArrayList<Creature>();
+    enclosure = new Enclosure( "Volcanic Cave" , "Fire" , 3 );
   }
 
   @Test
@@ -22,13 +27,13 @@ public class EnclosureTest {
   }
 
   @Test
-  public void getEnclosureCapacityTest() {
-    assertEquals( 3 , enclosure.getEnclosureCapacity() );
+  public void getEnclosureMaxCapacityTest() {
+    assertEquals( 3 , enclosure.getEnclosureMaxCapacity() );
   }
 
   @Test
-  public void getEnclosureResidentTest() {
-    assertEquals( "Morchock" , enclosure.getEnclosureResident() );
+  public void getEnclosureCreaturesTest() {
+    assertEquals( 0 , enclosure.getEnclosureCreatures().size() );
   }
 
 }

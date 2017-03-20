@@ -9,7 +9,7 @@ public class CreatureTest {
 
   @Before
   public void before() {
-    creature = new Creature( "Morchock" , "Dragon" , "Fire" , new ArrayList<FoodTypes>() , true , true );
+    creature = new Creature( "Morchock" , "Dragon" , "Fire" );
   }
 
   @Test
@@ -39,7 +39,7 @@ public class CreatureTest {
 
   @Test
   public void getHasEnclosureEqualsTrueTest() {
-    assertEquals( true , creature.getHasEnclosure() );
+    assertEquals( false , creature.getHasEnclosure() );
   }
 
 }
