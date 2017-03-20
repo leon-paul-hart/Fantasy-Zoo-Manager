@@ -1,6 +1,6 @@
 package zoo;
 
-class PiriPiriChicken implements FoodTypes {
+public class PiriPiriChicken implements FoodTypes {
 
   private String type;
 

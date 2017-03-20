@@ -43,4 +43,8 @@ public class Creature {
     return this.hasEnclosure;
   }
 
+  public void eat(FoodTypes food){
+    this.stomach.add(food);
+  }
+
 }

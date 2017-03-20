@@ -28,9 +28,13 @@ public class Zoo {
     return creatures.size();
   }
 
-  // public boolean feedCreature(Creature creature) {
-  //
-  // }
+  public int feedCreature( Creature creature , FoodTypes food ) {
+
+    if(creature.getIsHungry() ) {
+      creature.eat(food);
+    }
+    return creature.getStomachContents();
+  }
 
   // Zoo+Enclosure Methods
 

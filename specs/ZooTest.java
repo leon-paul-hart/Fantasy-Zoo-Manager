@@ -9,12 +9,14 @@ public class ZooTest {
   Zoo zoo;
   Creature creature;
   Enclosure enclosure;
+  FoodTypes food;
 
   @Before
   public void before() {
     zoo = new Zoo( "Zizis Zodiac Ziggarut!" );
     creature = new Creature( "Morchock" , "Dragon" , "Fire" , new ArrayList<FoodTypes>() , true , true );
     enclosure = new Enclosure( "Volcanic Cave" , "Fire" , 3 , "Morchock" );
+    food = new PiriPiriChicken();
   }
 
   @Test
@@ -34,10 +36,10 @@ public class ZooTest {
     assertEquals( 1 , zoo.countEnclosures() );
   }
 
-  // @Test
-  // public void feedCreatureTest() {
-  //   zoo.feedCreature(creature);
-  //   assertEquals( false , creature.getIsHungry() );
-  // }
+  @Test
+  public void feedCreatureTest() {
+    zoo.feedCreature( creature , food );
+    assertEquals( 1 , creature.getStomachContents() );
+  }
 
 }
