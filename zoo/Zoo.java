@@ -24,6 +24,10 @@ public class Zoo {
     creatures.add(creature);
   }
 
+  public void removeCreature(Creature creature) {
+    creatures.remove(creature);
+  }
+
   public int countCreatures() {
     return creatures.size();
   }
@@ -38,8 +42,12 @@ public class Zoo {
 
   // Zoo+Enclosure Methods
 
-  public void addEnclosure(Enclosure enclosure) {
+  public void addEnclosure( Enclosure enclosure ) {
     enclosures.add(enclosure);
+  }
+
+  public void removeEnclosure( Enclosure enclosure ) {
+    enclosures.remove(enclosure);
   }
 
   public int countEnclosures() {

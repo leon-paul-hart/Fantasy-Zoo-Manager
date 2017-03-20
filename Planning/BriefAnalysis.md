@@ -9,13 +9,13 @@ MoS-CoW method : MUST have, SHOULD have, COULD have, WONT have but would like.
 * ~~Zoo can count creatures.~~
 * ~~Zoo can feed creatures.~~
 * ~~Zoo can add creatures.~~
-* Zoo can remove creatures.
+* ~~Zoo can remove creatures.~~
 * Zoo can add creatures to an enclosure.
 * Zoo can remove creatures from an enclosure.
 * Zoo can move creatures to a different enclosure.
 * ~~Zoo can add enclosures.~~
 * ~~Zoo can count enclosures.~~
-* Zoo can remove enclosures.
+* ~~Zoo can remove enclosures.~~
 
 ## SHOULD have.
 
