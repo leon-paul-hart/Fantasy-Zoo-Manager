@@ -21,20 +21,7 @@ public class ZooTest {
 
   @Test
   public void getZooNameTest() {
-    assertEquals( "Zizis Zodiac Ziggarut!" , zoo.getName() );
-  }
-
-  @Test
-  public void addCreatureTest() {
-    zoo.addCreature(creature);
-    assertEquals( 1 , zoo.countCreatures() );
-  }
-
-  @Test
-  public void removeCreatureTest() {
-    zoo.addCreature(creature);
-    zoo.removeCreature(creature);
-    assertEquals( 0 , zoo.countCreatures() );
+    assertEquals( "Zizis Zodiac Ziggarut!" , zoo.getZooName() );
   }
 
   @Test
@@ -54,11 +41,6 @@ public class ZooTest {
   public void feedCreatureTest() {
     zoo.feedCreature( creature , food );
     assertEquals( 1 , creature.getStomachContents() );
-  }
-
-  @Test
-  public void getEnclosureCreatureCountTest() {
-    assertEquals( 0 , zoo.getEnclosureCreatureCount("Volcanic Cave") );
   }
 
 }

@@ -36,4 +36,22 @@ public class EnclosureTest {
     assertEquals( 0 , enclosure.getEnclosureCreatures().size() );
   }
 
+  @Test
+  public void countCreatures() {
+    assertEquals( 0 , enclosure.countCreatures() );
+  }
+
+  @Test
+  public void addCreatureTest() {
+    enclosure.addCreature(creature);
+    assertEquals( 1 , enclosure.countCreatures() );
+  }
+
+  @Test
+  public void removeCreatureTest() {
+    enclosure.addCreature(creature);
+    enclosure.removeCreature(creature);
+    assertEquals( 0 , enclosure.countCreatures() );
+  }
+
 }

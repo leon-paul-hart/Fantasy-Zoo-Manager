@@ -27,8 +27,20 @@ public class Enclosure {
     return this.maximumCapacity;
   }
 
+  public int countCreatures() {
+    return creatures.size();
+  }
+
   public ArrayList<Creature> getEnclosureCreatures() {
     return this.creatures;
+  }
+
+  public void addCreature(Creature creature) {
+    creatures.add(creature);
+  }
+
+  public void removeCreature(Creature creature) {
+    creatures.remove(creature);
   }
 
 }
