@@ -7,12 +7,14 @@ public class EnclosureTest {
 
   Enclosure enclosure;
   Creature creature;
+  Creature creature2;
   ArrayList<Creature> creatures;
 
   @Before
   public void before() {
     enclosure = new Enclosure( "Volcanic Cave" , "Fire" , 3 );
     creature = new Creature( "Morchock" , "Dragon" , "Fire" );
+    creature2 = new Creature( "Phoosh" , "Phoenix" , "Fire" );
     creatures = new ArrayList<Creature>();
   }
 
@@ -45,6 +47,13 @@ public class EnclosureTest {
   public void addCreatureTest() {
     enclosure.addCreature(creature);
     assertEquals( 1 , enclosure.countCreatures() );
+  }
+
+  @Test
+  public void addTwoCreaturesTest() {
+    enclosure.addCreature(creature);
+    enclosure.addCreature(creature2);
+    assertEquals( 2 , enclosure.countCreatures() );
   }
 
   @Test

@@ -5,18 +5,18 @@ MoS-CoW method : MUST have, SHOULD have, COULD have, WONT have but would like.
 ## MUST have.
 ### Minimum Viable Product Requirements:
 
-* ~~Zoo has creatures.~~
-* ~~Zoo can count creatures.~~
-* ~~Zoo can feed creatures.~~
-* ~~Zoo can add creatures.~~
-* ~~Zoo can remove creatures.~~
-* Zoo can check if enclosure is full.
-* Zoo can add creatures to an enclosure.
-* Zoo can remove creatures from an enclosure.
-* Zoo can move creatures to a different enclosure.
-* ~~Zoo can add enclosures.~~
-* ~~Zoo can count enclosures.~~
-* ~~Zoo can remove enclosures.~~
+* ~~A Zoo can add enclosures.~~
+* ~~A Zoo can feed a creature.~~
+* ~~A Zoo can count enclosures.~~
+* ~~A Zoo can remove enclosures.~~
+* ~~Enclosures can add creatures.~~
+* ~~Enclosures can hold creatures.~~
+* ~~Enclosures can remove creatures.~~
+* ~~Enclosures can count the creatures it contains.~~
+* Enclosures can add creatures.
+* Enclosures can check if it is full.
+* Enclosures can remove creatures.
+* Enclosures can transfer creatures to a different enclosure.
 
 ## SHOULD have.
 
