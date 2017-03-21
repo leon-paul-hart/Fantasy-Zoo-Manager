@@ -34,4 +34,4 @@ public class Zoo {
     this.enclosures.remove(enclosure);
   }
 
-}
+} // End of class

@@ -47,4 +47,4 @@ public class Creature {
     this.stomach.add(food);
   }
 
-}
+} // End of class

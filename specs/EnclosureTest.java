@@ -93,4 +93,18 @@ public class EnclosureTest {
     assertEquals( true , enclosure.checkIfEnclosureIsFull() );
   }
 
+  @Test
+  public void newEnclosureCountIncreasesByOneTest() {
+    enclosure.addCreature(creature);
+    enclosure.moveCreatureBetweenEnclosures( creature , enclosure2 );
+    assertEquals( 1 , enclosure2.countCreatures() );
+  }
+
+  @Test
+  public void previousEnclosureDecreasesByOneTest() {
+    enclosure.addCreature(creature);
+    enclosure.moveCreatureBetweenEnclosures( creature , enclosure2 );
+    assertEquals( 0 , enclosure.countCreatures() );
+  }
+
 }

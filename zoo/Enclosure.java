@@ -58,4 +58,11 @@ public class Enclosure {
     }
   }
 
-}
+  public void moveCreatureBetweenEnclosures( Creature creature , Enclosure enclosure2 ) {
+    if(!enclosure2.checkIfEnclosureIsFull()) {
+        this.removeCreature(creature);
+        enclosure2.addCreature(creature);
+    }
+  }
+
+} // End of Class
