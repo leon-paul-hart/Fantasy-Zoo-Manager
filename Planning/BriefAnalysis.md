@@ -13,6 +13,7 @@ MoS-CoW method : MUST have, SHOULD have, COULD have, WONT have but would like.
 * ~~Enclosures can hold creatures.~~
 * ~~Enclosures can remove creatures.~~
 * ~~Enclosures can count the creatures it contains.~~
+* ~~Enclosures can check if they are empty or not empty.~~
 * Enclosures can check if it is full.
 * Enclosures can transfer creatures to a different enclosure.
 
