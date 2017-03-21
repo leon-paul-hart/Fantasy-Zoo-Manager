@@ -58,18 +58,4 @@ public class Enclosure {
     }
   }
 
-
-  // capacity = getEnclosureMaxCapacity(enclosure);
-  // count = countCreatures(enclosure);
-  // result = capacity - count;
-  // if(result > 0 ) {
-  //   return false;
-  // }
-
-  // for enclosure of specific name. Find its maximum capacity.
-  // Then find how many creatures it contains.
-  // Then subtract the number of creatures from the maximum capacity.
-  // if the result is greater than zero return false
-  // else true
-
 }

@@ -9,6 +9,7 @@ public class EnclosureTest {
   Enclosure enclosure2;
   Creature creature;
   Creature creature2;
+  Creature creature3;
   ArrayList<Creature> creatures;
 
   @Before
@@ -17,6 +18,7 @@ public class EnclosureTest {
     enclosure2 = new Enclosure( "Volcano Cliff Face" , "Fire" , 2 );
     creature = new Creature( "Morchock" , "Dragon" , "Fire" );
     creature2 = new Creature( "Phoosh" , "Phoenix" , "Fire" );
+    creature3 = new Creature( "Deimos" , "Hellhound" , "Fire" );
     creatures = new ArrayList<Creature>();
   }
 
@@ -77,10 +79,18 @@ public class EnclosureTest {
   }
 
   @Test
-  public void checkIfEnclosureIsFullTest() {
+  public void checkIfEnclosureIsNotFullTest() {
     enclosure.addCreature(creature);
     enclosure.addCreature(creature2);
     assertEquals( false , enclosure.checkIfEnclosureIsFull() );
+  }
+
+  @Test
+  public void checkIfEnclosureIsFullTest() {
+    enclosure.addCreature(creature);
+    enclosure.addCreature(creature2);
+    enclosure.addCreature(creature3);
+    assertEquals( true , enclosure.checkIfEnclosureIsFull() );
   }
 
 }
