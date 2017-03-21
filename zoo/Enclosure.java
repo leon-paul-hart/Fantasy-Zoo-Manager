@@ -28,7 +28,7 @@ public class Enclosure {
   }
 
   public int countCreatures() {
-    return creatures.size();
+    return this.creatures.size();
   }
 
   public ArrayList<Creature> getEnclosureCreatures() {
@@ -36,11 +36,11 @@ public class Enclosure {
   }
 
   public void addCreature(Creature creature) {
-    creatures.add(creature);
+    this.creatures.add(creature);
   }
 
   public void removeCreature(Creature creature) {
-    creatures.remove(creature);
+    this.creatures.remove(creature);
   }
 
 }

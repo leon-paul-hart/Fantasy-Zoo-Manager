@@ -32,7 +32,7 @@ public class Creature {
   }
 
   public int getStomachContents() {
-    return stomach.size();
+    return this.stomach.size();
   }
 
   public Boolean getIsHungry() {

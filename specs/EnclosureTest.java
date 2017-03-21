@@ -63,4 +63,9 @@ public class EnclosureTest {
     assertEquals( 0 , enclosure.countCreatures() );
   }
 
+  // @Test
+  // public void checkIfEnclosureIsFullTest() {
+  //   assertEquals( false , enclosure. )
+  // }
+
 }

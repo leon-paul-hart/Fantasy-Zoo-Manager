@@ -23,15 +23,15 @@ public class Zoo {
   }
 
   public int countEnclosures() {
-    return enclosures.size();
+    return this.enclosures.size();
   }
 
   public void addEnclosure( Enclosure enclosure ) {
-    enclosures.add(enclosure);
+    this.enclosures.add(enclosure);
   }
 
   public void removeEnclosure( Enclosure enclosure ) {
-    enclosures.remove(enclosure);
+    this.enclosures.remove(enclosure);
   }
 
 }
