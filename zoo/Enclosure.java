@@ -31,6 +31,7 @@ public class Enclosure {
     return this.creatures.size();
   }
 
+  // returns all the contents of the creature arraylist.
   public ArrayList<Creature> getEnclosureCreatures() {
     return this.creatures;
   }
@@ -41,6 +42,10 @@ public class Enclosure {
 
   public void removeCreature(Creature creature) {
     this.creatures.remove(creature);
+  }
+
+  public Boolean checkIfEnclosureIsEmpty() {
+    return this.creatures.isEmpty();
   }
 
 }

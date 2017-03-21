@@ -6,6 +6,7 @@ import java.util.*;
 public class EnclosureTest {
 
   Enclosure enclosure;
+  Enclosure enclosure2;
   Creature creature;
   Creature creature2;
   ArrayList<Creature> creatures;
@@ -13,6 +14,7 @@ public class EnclosureTest {
   @Before
   public void before() {
     enclosure = new Enclosure( "Volcanic Cave" , "Fire" , 3 );
+    enclosure2 = new Enclosure( "Volcano Cliff Face" , "Fire" , 2 );
     creature = new Creature( "Morchock" , "Dragon" , "Fire" );
     creature2 = new Creature( "Phoosh" , "Phoenix" , "Fire" );
     creatures = new ArrayList<Creature>();
@@ -63,9 +65,15 @@ public class EnclosureTest {
     assertEquals( 0 , enclosure.countCreatures() );
   }
 
-  // @Test
-  // public void checkIfEnclosureIsFullTest() {
-  //   assertEquals( false , enclosure. )
-  // }
+  @Test
+  public void checkIfEnclosureIsEmptyTest() {
+    assertEquals( true , enclosure.checkIfEnclosureIsEmpty() );
+  }
+
+  @Test
+  public void checkIfEnclosureIsNotEmpty() {
+    enclosure.addCreature(creature);
+    assertEquals( false , enclosure.checkIfEnclosureIsEmpty() );
+  }
 
 }
