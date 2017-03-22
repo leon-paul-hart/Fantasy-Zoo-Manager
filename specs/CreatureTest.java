@@ -9,22 +9,17 @@ public class CreatureTest {
 
   @Before
   public void before() {
-    creature = new Creature( "Morchock" , "Dragon" , "Fire" );
+    creature = new Creature( "Spot" , "Dog" );
   }
 
   @Test
   public void getNameTest() {
-    assertEquals( "Morchock" , creature.getName() );
+    assertEquals( "Spot" , creature.getName() );
   }
 
   @Test
   public void getTypeTest() {
-    assertEquals( "Dragon" , creature.getType() );
-  }
-
-  @Test
-  public void getMagicalAffinityTest() {
-    assertEquals( "Fire" , creature.getMagicalAffinity() );
+    assertEquals( "Dog" , creature.getType() );
   }
 
   @Test
@@ -42,4 +37,4 @@ public class CreatureTest {
     assertEquals( false , creature.getHasEnclosure() );
   }
 
-}
+} // End of class

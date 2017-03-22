@@ -5,15 +5,13 @@ import java.util.*;
 public class Creature {
   private String name;
   private String type;
-  private String magicalaffinity;
   private ArrayList<FoodTypes> stomach;
   private boolean isHungry;
   private boolean hasEnclosure;
 
-  public Creature( String name , String type , String magicalaffinity ) {
+  public Creature( String name , String type ) {
     this.name = name;
     this.type = type;
-    this.magicalaffinity = magicalaffinity;
     this.stomach = new ArrayList<FoodTypes>();
     this.isHungry = true;
     this.hasEnclosure = false;
@@ -25,10 +23,6 @@ public class Creature {
 
   public String getType() {
     return this.type;
-  }
-
-  public String getMagicalAffinity() {
-    return this.magicalaffinity;
   }
 
   public int getStomachContents() {

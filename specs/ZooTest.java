@@ -14,7 +14,7 @@ public class ZooTest {
   @Before
   public void before() {
     zoo = new Zoo( "Zizis Zodiac Ziggarut!" );
-    creature = new Creature( "Morchock" , "Dragon" , "Fire" );
+    creature = new Creature( "Morchock" , "Dragon" );
     enclosure = new Enclosure( "Volcanic Cave" , "Fire" , 3 );
     food = new PiriPiriChicken();
   }
@@ -43,4 +43,4 @@ public class ZooTest {
     assertEquals( 1 , creature.getStomachContents() );
   }
 
-}
+} // End of class

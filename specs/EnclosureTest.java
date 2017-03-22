@@ -16,9 +16,9 @@ public class EnclosureTest {
   public void before() {
     enclosure = new Enclosure( "Volcanic Cave" , "Fire" , 3 );
     enclosure2 = new Enclosure( "Volcano Cliff Face" , "Fire" , 2 );
-    creature = new Creature( "Morchock" , "Dragon" , "Fire" );
-    creature2 = new Creature( "Phoosh" , "Phoenix" , "Fire" );
-    creature3 = new Creature( "Deimos" , "Hellhound" , "Fire" );
+    creature = new Creature( "Morchock" , "Dragon" );
+    creature2 = new Creature( "Phoosh" , "Phoenix" );
+    creature3 = new Creature( "Deimos" , "Hellhound" );
     creatures = new ArrayList<Creature>();
   }
 
@@ -107,4 +107,4 @@ public class EnclosureTest {
     assertEquals( 0 , enclosure.countCreatures() );
   }
 
-}
+} // End of class
