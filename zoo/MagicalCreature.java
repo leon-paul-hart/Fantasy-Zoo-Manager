@@ -1,16 +1,9 @@
 package zoo;
 
-public class MagicalCreature extends Creature {
+import java.util.HashMap;
 
-  public String magicalAffinity;
+public interface MagicalCreature {
 
-  public MagicalCreature( String name , String type , String magicalAffinity ) {
-    super( name , type );
-    this.magicalAffinity = magicalAffinity;
-  }
-
-  public String getMagicalAffinity() {
-    return this.magicalAffinity;
-  }
+  public HashMap< String , String > getPreferences();
 
 }
