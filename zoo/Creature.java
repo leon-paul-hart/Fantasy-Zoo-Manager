@@ -1,27 +1,27 @@
 package zoo;
 
-import java.util.*;
+import java.util.ArrayList;
 
 public class Creature {
   private String name;
   private String type;
   private ArrayList<FoodTypes> stomach;
   private boolean isHungry;
-  private boolean hasEnclosure;
+  private boolean isContained;
 
   public Creature( String name , String type ) {
     this.name = name;
     this.type = type;
     this.stomach = new ArrayList<FoodTypes>();
     this.isHungry = true;
-    this.hasEnclosure = false;
+    this.isContained = false;
   }
 
-  public String getName() {
+  public String getCreatureName() {
     return this.name;
   }
 
-  public String getType() {
+  public String getCreatureType() {
     return this.type;
   }
 
@@ -29,12 +29,12 @@ public class Creature {
     return this.stomach.size();
   }
 
-  public Boolean getIsHungry() {
+  public Boolean getHungerState() {
     return this.isHungry;
   }
 
-  public Boolean getHasEnclosure() {
-    return this.hasEnclosure;
+  public Boolean getContainmentState() {
+    return this.isContained;
   }
 
   public void eat(FoodTypes food){

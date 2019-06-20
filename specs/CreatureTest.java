@@ -1,11 +1,12 @@
-import static org.junit.Assert.*;
-import org.junit.*;
-import zoo.*;
-import java.util.*;
+import org.junit.Before;
+import org.junit.Test;
+import zoo.Creature;
+
+import static org.junit.Assert.assertEquals;
 
 public class CreatureTest {
 
-  Creature creature;
+  private Creature creature;
 
   @Before
   public void before() {
@@ -14,12 +15,12 @@ public class CreatureTest {
 
   @Test
   public void getNameTest() {
-    assertEquals( "Spot" , creature.getName() );
+    assertEquals("Spot", creature.getCreatureName());
   }
 
   @Test
   public void getTypeTest() {
-    assertEquals( "Dog" , creature.getType() );
+    assertEquals("Dog", creature.getCreatureType());
   }
 
   @Test
@@ -29,12 +30,12 @@ public class CreatureTest {
 
   @Test
   public void getIsHungryEqualsTrueTest() {
-    assertEquals( true , creature.getIsHungry() );
+    assertEquals(true, creature.getHungerState());
   }
 
   @Test
   public void getHasEnclosureEqualsTrueTest() {
-    assertEquals( false , creature.getHasEnclosure() );
+    assertEquals(false, creature.getContainmentState());
   }
 
 } // End of class

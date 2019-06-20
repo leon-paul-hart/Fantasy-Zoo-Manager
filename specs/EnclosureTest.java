@@ -1,16 +1,20 @@
-import static org.junit.Assert.*;
-import org.junit.*;
-import zoo.*;
-import java.util.*;
+import org.junit.Before;
+import org.junit.Test;
+import zoo.Creature;
+import zoo.Enclosure;
+
+import java.util.ArrayList;
+
+import static org.junit.Assert.assertEquals;
 
 public class EnclosureTest {
 
-  Enclosure enclosure;
-  Enclosure enclosure2;
-  Creature creature;
-  Creature creature2;
-  Creature creature3;
-  ArrayList<Creature> creatures;
+  private Enclosure enclosure;
+  private Enclosure enclosure2;
+  private Creature creature;
+  private Creature creature2;
+  private Creature creature3;
+  private ArrayList<Creature> creatures;
 
   @Before
   public void before() {
@@ -34,7 +38,7 @@ public class EnclosureTest {
 
   @Test
   public void getEnclosureMaxCapacityTest() {
-    assertEquals( 3 , enclosure.getEnclosureMaxCapacity() );
+    assertEquals(3, enclosure.getEnclosureCapacity());
   }
 
   @Test

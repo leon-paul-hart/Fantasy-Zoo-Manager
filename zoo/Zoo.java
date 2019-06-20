@@ -1,9 +1,10 @@
 package zoo;
-import java.util.*;
+
+import java.util.ArrayList;
 
 public class Zoo {
-  String name;
-  ArrayList<Enclosure> enclosures;
+  private String name;
+  private ArrayList<Enclosure> enclosures;
 
   public Zoo( String name ) {
     this.name = name;
@@ -16,7 +17,7 @@ public class Zoo {
 
   public int feedCreature( Creature creature , FoodTypes food ) {
 
-    if( creature.getIsHungry() ) {
+    if (creature.getHungerState()) {
       creature.eat(food);
     }
     return creature.getStomachContents();
