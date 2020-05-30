@@ -20,30 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1f76d7e-5053-4e8a-8c3f-5a67e69c72db" name="Default Changelist" comment="General code cleanup">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Zoo_Manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Zoo_Manager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Zoo_Manager/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Zoo_Manager/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Zoo_Manager/.idea/libraries/hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Zoo_Manager/.idea/libraries/junit_4_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Zoo_Manager/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Zoo_Manager/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Zoo_Manager/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Zoo_Manager/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Zoo_Manager/Java_Zoo_Manager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/CreatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CreatureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/EnclosureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/EnclosureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/MagicalCreatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/MagicalCreatureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/ZooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ZooTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/creature/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/Enclosure.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/enclosure/Enclosure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/FoodTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/food/IFood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/MagicalCreature.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/creature/ICreature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/PiriPiriChicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/food/types/PiriPiriChicken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/SpicyBBQRibs.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/food/types/SpicyBBQRibs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/Unicorn.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/creature/types/Unicorn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590845176020</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactored project structure for future expansion">
+      <created>1590851807934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590851807934</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -248,7 +233,8 @@
     <MESSAGE value="General code cleanup" />
     <MESSAGE value="Updated JUnit version" />
     <MESSAGE value="Removed planning files, and optimised imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed planning files, and optimised imports" />
+    <MESSAGE value="Refactored project structure for future expansion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored project structure for future expansion" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
