@@ -1,6 +1,6 @@
 package zoo;
 
-import java.util.*;
+import java.util.HashMap;
 
 public class Unicorn extends Creature implements MagicalCreature {
 

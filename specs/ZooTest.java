@@ -1,8 +1,8 @@
-import static org.junit.Assert.*;
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
 import zoo.*;
 
-import java.util.*;
+import static org.junit.Assert.assertEquals;
 
 public class ZooTest {
 

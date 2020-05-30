@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c1f76d7e-5053-4e8a-8c3f-5a67e69c72db" name="Default Changelist" comment="General code cleanup">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Planning/Brief.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Planning/BriefAnalysis.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Planning/Class Diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Planning/Class Diagram.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Planning/Magical Zoo Plan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Planning/Magical Zoo Plan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Planning/Use Case Diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Planning/Use Case Diagram.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Zoo_Manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Zoo_Manager/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +88,9 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="JUnit.ZooTest">
+  <component name="RunManager" selected="JUnit.All in Java_Zoo_Manager">
     <configuration name="All in Java_Zoo_Manager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Zoo_Manager" />
       <option name="PACKAGE_NAME" value="" />
@@ -113,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Java_Zoo_Manager" />
         <item itemvalue="JUnit.ZooTest" />
         <item itemvalue="JUnit.MagicalCreatureTest" />
         <item itemvalue="JUnit.EnclosureTest" />
         <item itemvalue="JUnit.CreatureTest" />
-        <item itemvalue="JUnit.All in Java_Zoo_Manager" />
       </list>
     </recent_temporary>
   </component>
@@ -146,17 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1561067637458</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated JUnit version">
+      <created>1590844190487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590844190487</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
@@ -192,7 +215,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Refactoring program to work in IntelliJ" />
     <MESSAGE value="General code cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="General code cleanup" />
+    <MESSAGE value="Updated JUnit version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated JUnit version" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -202,30 +226,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="99" key="#Project_Structure/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1586693493911" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1590843804003">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1590844860970">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590843804003" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1586700767286">
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590844860970" />
+    <state width="597" height="609" key="GridCell.Tab.0.bottom" timestamp="1590844310975">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1586700767286" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1586700767286">
+    <state width="597" height="609" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590844310975" />
+    <state width="597" height="609" key="GridCell.Tab.0.center" timestamp="1590844310975">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1586700767286" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1586700767286">
+    <state width="597" height="609" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590844310975" />
+    <state width="597" height="609" key="GridCell.Tab.0.left" timestamp="1590844310974">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1586700767286" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1586700767286">
+    <state width="597" height="609" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590844310974" />
+    <state width="597" height="609" key="GridCell.Tab.0.right" timestamp="1590844310975">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1586700767286" />
-    <state x="440" y="99" key="SettingsEditor" timestamp="1590843812217">
+    <state width="597" height="609" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590844310975" />
+    <state x="440" y="99" key="SettingsEditor" timestamp="1590844901862">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590843812217" />
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590844901862" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
