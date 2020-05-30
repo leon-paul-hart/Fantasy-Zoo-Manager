@@ -2,8 +2,8 @@ package tests;
 
 import org.junit.Before;
 import org.junit.Test;
-import zoo.creature.Creature;
-import zoo.enclosure.Enclosure;
+import zoomanager.creature.Creature;
+import zoomanager.enclosure.Enclosure;
 
 import java.util.ArrayList;
 
@@ -25,7 +25,7 @@ public class EnclosureTest {
     creature = new Creature( "Morchock" , "Dragon" );
     creature2 = new Creature( "Phoosh" , "Phoenix" );
     creature3 = new Creature( "Deimos" , "Hellhound" );
-    creatures = new ArrayList<Creature>();
+    creatures = new ArrayList<>();
   }
 
   @Test

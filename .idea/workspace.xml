@@ -19,9 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1f76d7e-5053-4e8a-8c3f-5a67e69c72db" name="Default Changelist" comment="General code cleanup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ZooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ZooTest.java" afterDir="false" />
+    <list default="true" id="7b102864-d880-45e5-869d-85ceebe9e6d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Java_Zoo_Manager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Zoo_Manager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CreatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests/CreatureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/EnclosureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests/EnclosureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/MagicalCreatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests/MagicalCreatureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ZooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests/ZooTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/zoo/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/creature/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/creature/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/creature/ICreature.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/creature/ICreature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/creature/types/Unicorn.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/creature/types/Unicorn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/enclosure/Enclosure.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/enclosure/Enclosure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/food/IFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/food/IFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/food/types/PiriPiriChicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/food/types/PiriPiriChicken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/food/types/SpicyBBQRibs.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/food/types/SpicyBBQRibs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,120 +50,73 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Leon-Paul Hart &lt;leon.paul.hart@gmail.com&gt;" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="870" />
-    <option name="y" value="306" />
-    <option name="width" value="2100" />
-    <option name="height" value="1500" />
-  </component>
-  <component name="ProjectId" id="1aRLPGUQ0QcwnOrfeoslpN0VsUb" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1cdo55nEJvGQPSTlfxtId5qLija" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
-    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="java_zoo_manager" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/specs" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../DevTools/junit-4.13.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tests" />
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leonp\source\repos\Java_Zoo_Manager\.idea" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Java_Zoo_Manager">
-    <configuration name="All in Java_Zoo_Manager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="Java_Zoo_Manager" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Zoo_Manager" />
-      <option name="PACKAGE_NAME" value="specs" />
-      <option name="MAIN_CLASS_NAME" value="specs.CreatureTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <useClassPathOnly />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$/tests" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnclosureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="tests in Java_Zoo_Manager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Zoo_Manager" />
-      <option name="PACKAGE_NAME" value="specs" />
-      <option name="MAIN_CLASS_NAME" value="specs.EnclosureTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MagicalCreatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Zoo_Manager" />
-      <option name="PACKAGE_NAME" value="specs" />
-      <option name="MAIN_CLASS_NAME" value="specs.MagicalCreatureTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Zoo_Manager" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ZooTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$/tests" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Java_Zoo_Manager" />
-        <item itemvalue="JUnit.ZooTest" />
-        <item itemvalue="JUnit.MagicalCreatureTest" />
-        <item itemvalue="JUnit.EnclosureTest" />
-        <item itemvalue="JUnit.CreatureTest" />
+        <item itemvalue="JUnit.tests in Java_Zoo_Manager" />
       </list>
     </recent_temporary>
   </component>
@@ -153,59 +125,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c1f76d7e-5053-4e8a-8c3f-5a67e69c72db" name="Default Changelist" comment="" />
-      <created>1561060312322</created>
+      <changelist id="7b102864-d880-45e5-869d-85ceebe9e6d3" name="Default Changelist" comment="" />
+      <created>1590867644308</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1561060312322</updated>
+      <updated>1590867644308</updated>
     </task>
-    <task id="LOCAL-00001" summary="Refactoring program to work in IntelliJ">
-      <created>1561061978007</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1561061978007</updated>
-    </task>
-    <task id="LOCAL-00002" summary="General code cleanup">
-      <created>1561067637458</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1561067637458</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Updated JUnit version">
-      <created>1590844190487</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1590844190487</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Removed planning files, and optimised imports">
-      <created>1590845176020</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1590845176020</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Refactored project structure for future expansion">
-      <created>1590851807934</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1590851807934</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Updated .gitignore">
-      <created>1590852180521</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1590852180521</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="UpdateCopyrightCheckinHandler">
-    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -217,90 +143,94 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Refactoring program to work in IntelliJ" />
-    <MESSAGE value="General code cleanup" />
-    <MESSAGE value="Updated JUnit version" />
-    <MESSAGE value="Removed planning files, and optimised imports" />
-    <MESSAGE value="Refactored project structure for future expansion" />
-    <MESSAGE value="Updated .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated .gitignore" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="99" key="#Project_Structure" timestamp="1586693493911">
+    <state x="563" y="144" key="#CreatureTest" timestamp="1590868562504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="440" y="99" key="#Project_Structure/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1586693493911" />
-    <state x="653" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590845431820">
+    <state x="563" y="144" key="#CreatureTest/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590868562504" />
+    <state x="440" y="99" key="#Project_Structure" timestamp="1590868250522">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="653" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590845431820" />
-    <state x="756" y="406" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1590845422280">
+    <state x="440" y="99" key="#Project_Structure/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590868250522" />
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590869152428">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="756" y="406" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590845422280" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1590844860970">
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869152428" />
+    <state x="690" y="301" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1590868480523">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590844860970" />
-    <state width="1877" height="344" key="GridCell.Tab.0.bottom" timestamp="1590850471992">
+    <state x="690" y="301" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590868480523" />
+    <state x="661" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590869429282">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590850471992" />
-    <state width="1877" height="344" key="GridCell.Tab.0.center" timestamp="1590850471991">
+    <state x="661" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869429282" />
+    <state x="743" y="390" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590869101435">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590850471991" />
-    <state width="1877" height="344" key="GridCell.Tab.0.left" timestamp="1590850471991">
+    <state x="743" y="390" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869101435" />
+    <state x="690" y="279" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1590868401330">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590850471991" />
-    <state width="1877" height="344" key="GridCell.Tab.0.right" timestamp="1590850471992">
+    <state x="690" y="279" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590868401330" />
+    <state x="635" y="234" key="FileChooserDialogImpl" timestamp="1590868492704">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590850471992" />
-    <state x="440" y="99" key="SettingsEditor" timestamp="1590844901862">
+    <state x="635" y="234" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590868492704" />
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1590869431628">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590844901862" />
-    <state x="776" y="303" key="chooseDestDirectoryDialog" timestamp="1590845381248">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869431628" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1590869431628">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="776" y="303" key="chooseDestDirectoryDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590845381248" />
-    <state x="664" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590846677042">
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869431628" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1590869431628">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="664" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590846677042" />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869431628" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1590869431628">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869431628" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1590869431629">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869431629" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1590869431629">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869431629" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1590869431629">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869431629" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1590869431629">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869431629" />
+    <state x="440" y="99" key="SettingsEditor" timestamp="1590868408637">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590868408637" />
+    <state x="776" y="303" key="chooseDestDirectoryDialog" timestamp="1590868964172">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="776" y="303" key="chooseDestDirectoryDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590868964172" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$MagicalCreatureTest.ic" NAME="MagicalCreatureTest Coverage Results" MODIFIED="1586693711411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$EnclosureTest.ic" NAME="EnclosureTest Coverage Results" MODIFIED="1586693696450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$ZooTest.ic" NAME="ZooTest Coverage Results" MODIFIED="1586693719255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$CreatureTest.ic" NAME="CreatureTest Coverage Results" MODIFIED="1586693685630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$All_in_Java_Zoo_Manager.ic" NAME="All in Java_Zoo_Manager Coverage Results" MODIFIED="1590868798096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$EnclosureTest.ic" NAME="EnclosureTest Coverage Results" MODIFIED="1590868737682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$ZooTest.ic" NAME="ZooTest Coverage Results" MODIFIED="1590868744987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$tests_in_Java_Zoo_Manager.ic" NAME="tests in Java_Zoo_Manager Coverage Results" MODIFIED="1590869717592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$CreatureTest.ic" NAME="CreatureTest Coverage Results" MODIFIED="1590868728894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
   </component>
 </project>

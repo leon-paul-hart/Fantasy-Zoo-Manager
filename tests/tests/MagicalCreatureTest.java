@@ -13,7 +13,7 @@ public class MagicalCreatureTest {
 
   @Before
   public void before() {
-    preferences = new HashMap< String , String >();
+    preferences = new HashMap<>();
     preferences.put( "Spicy! FOOSH! Thats hot!" , "Hot , nice and cosy!" );
     preferences.put( "Marshmallow! MMMM fluffy!" , "Spacious! Plenty of space to fly or run!" );
     preferences.put( "Refreshing! SPLASH!" , "Deep waters, nice to contemplate in!" );

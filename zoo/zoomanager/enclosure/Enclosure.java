@@ -1,6 +1,6 @@
-package zoo.enclosure;
+package zoomanager.enclosure;
 
-import zoo.creature.Creature;
+import zoomanager.creature.Creature;
 
 import java.util.ArrayList;
 
@@ -14,7 +14,7 @@ public class Enclosure {
     this.EnclosureName = enclosureName;
     this.CreatureType = creatureType;
     this.MaximumCapacity = maximumCapacity;
-    this.EnclosedCreatures = new ArrayList<Creature>();
+    this.EnclosedCreatures = new ArrayList<>();
   }
 
   public String getEnclosureName() {
@@ -33,7 +33,7 @@ public class Enclosure {
     return this.EnclosedCreatures.size();
   }
 
-  // returns all the contents of the creature array list.
+  // returns all the contents of the zoomanager.creature array list.
   public ArrayList<Creature> getEnclosureCreatures() {
     return this.EnclosedCreatures;
   }

@@ -1,4 +1,4 @@
-package zoo.creature;
+package zoomanager.creature;
 
 import java.util.HashMap;
 

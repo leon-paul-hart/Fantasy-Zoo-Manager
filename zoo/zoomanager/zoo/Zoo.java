@@ -1,9 +1,8 @@
-package zoo;
+package zoomanager.zoo;
 
-import org.jetbrains.annotations.NotNull;
-import zoo.creature.Creature;
-import zoo.enclosure.Enclosure;
-import zoo.food.IFood;
+import zoomanager.creature.Creature;
+import zoomanager.enclosure.Enclosure;
+import zoomanager.food.IFood;
 
 import java.util.ArrayList;
 
@@ -17,15 +16,15 @@ public class Zoo {
 
     public Zoo(String name) {
         this.name = name;
-        this.enclosures = new ArrayList<Enclosure>();
-        this.creatures = new ArrayList<Creature>();
+        this.enclosures = new ArrayList<>();
+        this.creatures = new ArrayList<>();
     }
 
     public String getZooName() {
         return this.name;
     }
 
-    public void feedCreature(@NotNull Creature creature, IFood food) {
+    public void feedCreature(Creature creature, IFood food) {
 
         if (creature.getHungerState()) {
             creature.eat(food);

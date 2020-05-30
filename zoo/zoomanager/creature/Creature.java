@@ -1,6 +1,6 @@
-package zoo.creature;
+package zoomanager.creature;
 
-import zoo.food.IFood;
+import zoomanager.food.IFood;
 
 import java.util.ArrayList;
 
@@ -14,7 +14,7 @@ public class Creature {
   public Creature(String name, String type) {
     this.name = name;
     this.type = type;
-    this.stomach = new ArrayList<IFood>();
+    this.stomach = new ArrayList<>();
     this.isHungry = true;
     this.isContained = false;
   }

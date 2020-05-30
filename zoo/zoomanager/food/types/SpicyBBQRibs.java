@@ -1,6 +1,6 @@
-package zoo.food.types;
+package zoomanager.food.types;
 
-import zoo.food.IFood;
+import zoomanager.food.IFood;
 
 public class SpicyBBQRibs implements IFood {
 

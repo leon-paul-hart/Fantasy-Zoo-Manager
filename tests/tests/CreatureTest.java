@@ -1,10 +1,9 @@
 package tests;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import zoo.creature.Creature;
-
-import static org.junit.Assert.assertEquals;
+import zoomanager.creature.Creature;
 
 public class CreatureTest {
 
@@ -17,27 +16,27 @@ public class CreatureTest {
 
   @Test
   public void getNameTest() {
-    assertEquals("Spot", creature.getCreatureName());
+    Assert.assertEquals("Spot", creature.getCreatureName());
   }
 
   @Test
   public void getTypeTest() {
-    assertEquals("Dog", creature.getCreatureType());
+    Assert.assertEquals("Dog", creature.getCreatureType());
   }
 
   @Test
   public void getStomachContentsTest() {
-    assertEquals( 0 , creature.getStomachContents() );
+    Assert.assertEquals( 0 , creature.getStomachContents() );
   }
 
   @Test
   public void getIsHungryEqualsTrueTest() {
-    assertEquals(true, creature.getHungerState());
+    Assert.assertEquals(true, creature.getHungerState());
   }
 
   @Test
   public void getHasEnclosureEqualsTrueTest() {
-    assertEquals(false, creature.getContainmentState());
+    Assert.assertEquals(false, creature.getContainmentState());
   }
 
 } // End of class

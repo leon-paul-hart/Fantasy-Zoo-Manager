@@ -2,11 +2,11 @@ package tests;
 
 import org.junit.Before;
 import org.junit.Test;
-import zoo.Zoo;
-import zoo.creature.Creature;
-import zoo.enclosure.Enclosure;
-import zoo.food.IFood;
-import zoo.food.types.PiriPiriChicken;
+import zoomanager.zoo.Zoo;
+import zoomanager.creature.Creature;
+import zoomanager.enclosure.Enclosure;
+import zoomanager.food.IFood;
+import zoomanager.food.types.PiriPiriChicken;
 
 import static org.junit.Assert.assertEquals;
 
