@@ -20,47 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b102864-d880-45e5-869d-85ceebe9e6d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoomanager/creature/Creature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoomanager/creature/types/Unicorn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoomanager/enclosure/Enclosure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoomanager/food/types/PiriPiriChicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoomanager/food/types/SpicyBBQRibs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CreatureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/EnclosureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MagicalCreatureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ZooTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java_Zoo_Manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java_Zoo_Manager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Java_Zoo_Manager/zoomanager/creature/Creature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Java_Zoo_Manager/zoomanager/creature/ICreature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Java_Zoo_Manager/zoomanager/creature/types/Unicorn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Java_Zoo_Manager/zoomanager/enclosure/Enclosure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Java_Zoo_Manager/zoomanager/food/IFood.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Java_Zoo_Manager/zoomanager/food/types/PiriPiriChicken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Java_Zoo_Manager/zoomanager/food/types/SpicyBBQRibs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/Java_Zoo_Manager/zoomanager/zoo/Zoo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test/Java_Zoo_Manager/tests/CreatureTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test/Java_Zoo_Manager/tests/EnclosureTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test/Java_Zoo_Manager/tests/MagicalCreatureTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test/Java_Zoo_Manager/tests/ZooTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests/CreatureTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests/EnclosureTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests/MagicalCreatureTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests/ZooTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/zoomanager/creature/Creature.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/zoomanager/creature/ICreature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/creature/ICreature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/zoomanager/creature/types/Unicorn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/zoomanager/enclosure/Enclosure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/zoomanager/food/IFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/food/IFood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/zoomanager/food/types/PiriPiriChicken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/zoomanager/food/types/SpicyBBQRibs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/zoomanager/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/zoo/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590875162213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".gitignore change updated in workspace.xml">
+      <created>1590875251835</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590875251835</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,12 +264,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactored application package structure" />
     <MESSAGE value="Removed ant.yaml and broken github workflow" />
     <MESSAGE value="Restructured project to use Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructured project to use Maven" />
+    <MESSAGE value=".gitignore change updated in workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore change updated in workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="563" y="144" key="#CreatureTest" timestamp="1590868562504">
@@ -352,46 +322,46 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="635" y="234" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590871151459" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1590875063680">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1590875488435">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875063680" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1590875063680">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1590875488435">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875063680" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1590875063679">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1590875488434">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875063679" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1590875063680">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488434" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1590875488435">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875063680" />
-    <state width="1433" height="352" key="GridCell.Tab.1.bottom" timestamp="1590873294261">
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
+    <state width="1877" height="333" key="GridCell.Tab.1.bottom" timestamp="1590875429504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1433" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590873294261" />
-    <state width="1433" height="352" key="GridCell.Tab.1.center" timestamp="1590873294261">
+    <state width="1877" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875429504" />
+    <state width="1877" height="333" key="GridCell.Tab.1.center" timestamp="1590875429504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1433" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590873294261" />
-    <state width="1433" height="352" key="GridCell.Tab.1.left" timestamp="1590873294260">
+    <state width="1877" height="333" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875429504" />
+    <state width="1877" height="333" key="GridCell.Tab.1.left" timestamp="1590875429504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1433" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590873294260" />
-    <state width="1433" height="352" key="GridCell.Tab.1.right" timestamp="1590873294261">
+    <state width="1877" height="333" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875429504" />
+    <state width="1877" height="333" key="GridCell.Tab.1.right" timestamp="1590875429504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1433" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590873294261" />
+    <state width="1877" height="333" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875429504" />
     <state x="440" y="99" key="SettingsEditor" timestamp="1590873787837">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590873787837" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1590875168230">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1590875256091">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875168230" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875256091" />
     <state x="776" y="303" key="chooseDestDirectoryDialog" timestamp="1590868964172">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
