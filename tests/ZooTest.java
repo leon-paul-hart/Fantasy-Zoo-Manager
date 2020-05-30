@@ -33,7 +33,7 @@ public class ZooTest {
   }
 
   @Test
-  public void new_Zoo_Enclosure_Count_Equals_Zero() {
+  public void new_Zoo_Has_Zero_Enclosures() {
     assertEquals(0, zoo.countEnclosures());
   }
 
