@@ -1,7 +1,9 @@
+package tests;
+
 import org.junit.Before;
 import org.junit.Test;
-import zoo.Creature;
-import zoo.Enclosure;
+import zoo.creature.Creature;
+import zoo.enclosure.Enclosure;
 
 import java.util.ArrayList;
 

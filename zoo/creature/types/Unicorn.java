@@ -1,0 +1,21 @@
+package zoo.creature.types;
+
+import zoo.creature.Creature;
+import zoo.creature.ICreature;
+
+import java.util.HashMap;
+
+public class Unicorn extends Creature implements ICreature {
+
+  private HashMap<String, String> preferences = new HashMap<String, String>();
+
+  public Unicorn(String name, String type, HashMap<String, String> preferences) {
+    super(name, type);
+    this.preferences = preferences;
+  }
+
+  public HashMap<String, String> getPreferences() {
+    return this.preferences;
+  }
+
+}

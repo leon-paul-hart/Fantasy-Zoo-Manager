@@ -1,6 +1,8 @@
+package tests;
+
 import org.junit.Before;
 import org.junit.Test;
-import zoo.Creature;
+import zoo.creature.Creature;
 
 import static org.junit.Assert.assertEquals;
 

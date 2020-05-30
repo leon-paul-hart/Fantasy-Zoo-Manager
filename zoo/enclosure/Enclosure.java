@@ -1,12 +1,14 @@
-package zoo;
+package zoo.enclosure;
+
+import zoo.creature.Creature;
 
 import java.util.ArrayList;
 
 public class Enclosure {
-  private String EnclosureName;
-  private String CreatureType;
-  private int MaximumCapacity;
-  private ArrayList<Creature> EnclosedCreatures;
+  private final String EnclosureName;
+  private final String CreatureType;
+  private final int MaximumCapacity;
+  private final ArrayList<Creature> EnclosedCreatures;
 
   public Enclosure(String enclosureName, String creatureType, int maximumCapacity) {
     this.EnclosureName = enclosureName;
@@ -60,4 +62,4 @@ public class Enclosure {
     }
   }
 
-} // End of Class
+}

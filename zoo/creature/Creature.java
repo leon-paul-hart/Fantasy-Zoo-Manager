@@ -1,18 +1,20 @@
-package zoo;
+package zoo.creature;
+
+import zoo.food.IFood;
 
 import java.util.ArrayList;
 
 public class Creature {
-  private String name;
-  private String type;
-  private ArrayList<FoodTypes> stomach;
-  private boolean isHungry;
-  private boolean isContained;
+  private final String name;
+  private final String type;
+  private final ArrayList<IFood> stomach;
+  private final boolean isHungry;
+  private final boolean isContained;
 
-  public Creature( String name , String type ) {
+  public Creature(String name, String type) {
     this.name = name;
     this.type = type;
-    this.stomach = new ArrayList<FoodTypes>();
+    this.stomach = new ArrayList<IFood>();
     this.isHungry = true;
     this.isContained = false;
   }
@@ -37,7 +39,7 @@ public class Creature {
     return this.isContained;
   }
 
-  public void eat(FoodTypes food){
+  public void eat(IFood food) {
     this.stomach.add(food);
   }
 
