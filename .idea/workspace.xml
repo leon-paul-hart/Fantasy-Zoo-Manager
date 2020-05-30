@@ -19,29 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b102864-d880-45e5-869d-85ceebe9e6d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Java_Zoo_Manager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Zoo_Manager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CreatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests/CreatureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/EnclosureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests/EnclosureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/MagicalCreatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests/MagicalCreatureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ZooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests/ZooTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/zoo/Zoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/creature/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/creature/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/creature/ICreature.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/creature/ICreature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/creature/types/Unicorn.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/creature/types/Unicorn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/enclosure/Enclosure.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/enclosure/Enclosure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/food/IFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/food/IFood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/food/types/PiriPiriChicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/food/types/PiriPiriChicken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/food/types/SpicyBBQRibs.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/zoomanager/food/types/SpicyBBQRibs.java" afterDir="false" />
-    </list>
+    <list default="true" id="7b102864-d880-45e5-869d-85ceebe9e6d3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +29,7 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -131,6 +110,14 @@
       <option name="presentableId" value="Default" />
       <updated>1590867644308</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactored application package structure">
+      <created>1590869941348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590869941348</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +130,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactored application package structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored application package structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="563" y="144" key="#CreatureTest" timestamp="1590868562504">
@@ -177,22 +168,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="635" y="234" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590868492704" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1590869431628">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1590869912976">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869431628" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1590869431628">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869912976" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1590869912975">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869431628" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1590869431628">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869912975" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1590869912975">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869431628" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1590869431628">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869912975" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1590869912976">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869431628" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869912976" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1590869431629">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -213,6 +204,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590868408637" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1590869948831">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590869948831" />
     <state x="776" y="303" key="chooseDestDirectoryDialog" timestamp="1590868964172">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
