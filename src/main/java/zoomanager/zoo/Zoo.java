@@ -6,12 +6,10 @@ import zoomanager.food.IFood;
 
 import java.util.ArrayList;
 
-public class Zoo {
+public class Zoo implements IZoo {
 
     private final String name;
-
     private final ArrayList<Enclosure> enclosures;
-
     private final ArrayList<Creature> creatures;
 
     public Zoo(String name) {
@@ -24,11 +22,13 @@ public class Zoo {
         return this.name;
     }
 
+    // TODO: 02/06/2020 Move this to creature class
     public void feedCreature(Creature creature, IFood food) {
 
         if (creature.getHungerState()) {
             creature.eat(food);
         }
+
         creature.getStomachContents();
     }
 
@@ -36,6 +36,7 @@ public class Zoo {
         return this.enclosures.size();
     }
 
+    // TODO: 02/06/2020 Add an additional method for creating a new enclose and its details
     public void addEnclosure(Enclosure enclosure) {
         this.enclosures.add(enclosure);
     }
@@ -51,6 +52,7 @@ public class Zoo {
         return this.creatures.size();
     }
 
+    // TODO: 02/06/2020 Add an additional method for creating a new creature and its details
     public void addCreature(Creature creature) {
         this.creatures.add(creature);
     }

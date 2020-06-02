@@ -16,24 +16,16 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b102864-d880-45e5-869d-85ceebe9e6d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoomanager/enclosure/IEnclosure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoomanager/food/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java_Zoo_Manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java_Zoo_Manager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/creature/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/creature/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/creature/types/Unicorn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/enclosure/Enclosure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/enclosure/Enclosure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/food/IFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/food/IFood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/food/types/PiriPiriChicken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/food/types/SpicyBBQRibs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/EnclosureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/EnclosureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ZooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ZooTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="7b102864-d880-45e5-869d-85ceebe9e6d3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -290,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591131033047</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated project workspace.xml">
+      <created>1591131125752</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591131125752</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +297,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -312,13 +323,18 @@
     <MESSAGE value=".gitignore change updated in workspace.xml" />
     <MESSAGE value="Updated .gitignore with Maven details" />
     <MESSAGE value="Removed &quot;Types&quot; of food and creatures, created an interface instead, adapted tests and removed some poor boolean logic in the process" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed &quot;Types&quot; of food and creatures, created an interface instead, adapted tests and removed some poor boolean logic in the process" />
+    <MESSAGE value="updated project workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated project workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="563" y="144" key="#CreatureTest" timestamp="1590868562504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="563" y="144" key="#CreatureTest/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590868562504" />
+    <state x="847" y="367" width="216" height="249" key="#Notifications" timestamp="1591131284774">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="847" y="367" width="216" height="249" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1591131284774" />
     <state x="439" y="80" width="1026" height="838" key="#Project_Structure" timestamp="1591127499335">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -372,26 +388,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="635" y="234" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590871151459" />
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom" timestamp="1591131007888">
+    <state width="1874" height="289" key="GridCell.Tab.0.bottom" timestamp="1591131146751">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591131007888" />
-    <state width="1874" height="289" key="GridCell.Tab.0.center" timestamp="1591131007886">
+    <state width="1874" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591131146751" />
+    <state width="1874" height="289" key="GridCell.Tab.0.center" timestamp="1591131146749">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
-    <state width="1874" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591131007886" />
-    <state width="1874" height="289" key="GridCell.Tab.0.left" timestamp="1591131007885">
+    <state width="1874" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591131146749" />
+    <state width="1874" height="289" key="GridCell.Tab.0.left" timestamp="1591131146748">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488434" />
-    <state width="1874" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591131007885" />
-    <state width="1874" height="289" key="GridCell.Tab.0.right" timestamp="1591131007887">
+    <state width="1874" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591131146748" />
+    <state width="1874" height="289" key="GridCell.Tab.0.right" timestamp="1591131146750">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
-    <state width="1874" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591131007887" />
+    <state width="1874" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591131146750" />
     <state width="1877" height="333" key="GridCell.Tab.1.bottom" timestamp="1590875429504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -413,15 +429,19 @@
     </state>
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590873787837" />
     <state x="439" y="80" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1591130215899" />
-    <state x="551" y="243" width="802" height="521" key="Vcs.Push.Dialog.v2" timestamp="1591131039056">
+    <state x="550" y="221" width="802" height="521" key="Vcs.Push.Dialog.v2" timestamp="1591131417155">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875680934" />
-    <state x="551" y="243" width="802" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591131039056" />
+    <state x="550" y="221" width="802" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591131417155" />
     <state x="776" y="303" key="chooseDestDirectoryDialog" timestamp="1590868964172">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="776" y="303" key="chooseDestDirectoryDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590868964172" />
+    <state x="764" y="411" width="381" height="161" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591131313920">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="764" y="411" width="381" height="161" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591131313920" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Zoo_Manager$CreatureTest.ic" NAME="CreatureTest Coverage Results" MODIFIED="1590868728894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
