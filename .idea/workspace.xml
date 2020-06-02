@@ -25,7 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b102864-d880-45e5-869d-85ceebe9e6d3" name="Default Changelist" comment="" />
+    <list default="true" id="7b102864-d880-45e5-869d-85ceebe9e6d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/zoomanager/zoo/IZoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/zoo/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ZooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ZooTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +92,7 @@
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="zoomanager.zoo" />
       <recent name="zoomanager.enclosure" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -289,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591131125752</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added IZoo interface and some Todo's">
+      <created>1591132548703</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591132548703</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +337,8 @@
     <MESSAGE value="Updated .gitignore with Maven details" />
     <MESSAGE value="Removed &quot;Types&quot; of food and creatures, created an interface instead, adapted tests and removed some poor boolean logic in the process" />
     <MESSAGE value="updated project workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated project workspace.xml" />
+    <MESSAGE value="added IZoo interface and some Todo's" />
+    <option name="LAST_COMMIT_MESSAGE" value="added IZoo interface and some Todo's" />
   </component>
   <component name="WindowStateProjectService">
     <state x="563" y="144" key="#CreatureTest" timestamp="1590868562504">
@@ -376,10 +390,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="756" y="406" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590870666274" />
-    <state x="657" y="-22" width="596" height="1073" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591129188309">
+    <state x="656" y="-44" width="596" height="1073" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591131651864">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="657" y="-22" width="596" height="1073" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1591129188309" />
+    <state x="656" y="-44" width="596" height="1073" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1591131651864" />
     <state x="690" y="279" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1590868401330">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -388,26 +402,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="635" y="234" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590871151459" />
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom" timestamp="1591131146751">
+    <state width="1874" height="289" key="GridCell.Tab.0.bottom" timestamp="1591132122843">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591131146751" />
-    <state width="1874" height="289" key="GridCell.Tab.0.center" timestamp="1591131146749">
+    <state width="1874" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591132122843" />
+    <state width="1874" height="289" key="GridCell.Tab.0.center" timestamp="1591132122841">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
-    <state width="1874" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591131146749" />
-    <state width="1874" height="289" key="GridCell.Tab.0.left" timestamp="1591131146748">
+    <state width="1874" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591132122841" />
+    <state width="1874" height="289" key="GridCell.Tab.0.left" timestamp="1591132122840">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488434" />
-    <state width="1874" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591131146748" />
-    <state width="1874" height="289" key="GridCell.Tab.0.right" timestamp="1591131146750">
+    <state width="1874" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591132122840" />
+    <state width="1874" height="289" key="GridCell.Tab.0.right" timestamp="1591132122842">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
-    <state width="1874" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591131146750" />
+    <state width="1874" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591132122842" />
     <state width="1877" height="333" key="GridCell.Tab.1.bottom" timestamp="1590875429504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -429,11 +443,11 @@
     </state>
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590873787837" />
     <state x="439" y="80" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1591130215899" />
-    <state x="550" y="221" width="802" height="521" key="Vcs.Push.Dialog.v2" timestamp="1591131417155">
+    <state x="549" y="199" width="802" height="521" key="Vcs.Push.Dialog.v2" timestamp="1591132551045">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875680934" />
-    <state x="550" y="221" width="802" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591131417155" />
+    <state x="549" y="199" width="802" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591132551045" />
     <state x="776" y="303" key="chooseDestDirectoryDialog" timestamp="1590868964172">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
