@@ -4,7 +4,8 @@ import zoomanager.creature.Creature;
 
 import java.util.ArrayList;
 
-public class Enclosure {
+public class Enclosure implements IEnclosure {
+
     private final String EnclosureName;
     private final String CreatureType;
     private final int MaximumCapacity;
@@ -29,36 +30,41 @@ public class Enclosure {
         return this.MaximumCapacity;
     }
 
-    public int countCreatures() {
+    public int countEnclosureCreatures() {
         return this.EnclosedCreatures.size();
     }
 
-    // returns all the contents of the zoomanager.creature array list.
-    public ArrayList<Creature> getEnclosureCreatures() {
+    public ArrayList<Creature> getEnclosureCreaturesList() {
         return this.EnclosedCreatures;
     }
 
-    public void addCreature(Creature creature) {
+    public void addCreatureToEnclosure(Creature creature) {
         this.EnclosedCreatures.add(creature);
     }
 
-    public void removeCreature(Creature creature) {
+    public void removeCreatureFromEnclosure(Creature creature) {
         this.EnclosedCreatures.remove(creature);
     }
 
     public Boolean checkIfEnclosureIsEmpty() {
-        int creatureCount = countCreatures();
+
+        int creatureCount = this.countEnclosureCreatures();
+
         return creatureCount == 0;
     }
 
     public Boolean checkIfEnclosureIsFull() {
-        return countCreatures() == getEnclosureCapacity();
+
+        int creatureCount = this.countEnclosureCreatures();
+        int enclosureCapacity = this.getEnclosureCapacity();
+
+        return creatureCount == enclosureCapacity;
     }
 
-    public void moveCreatureBetweenEnclosures(Creature creature, Enclosure enclosure2) {
-        if (!enclosure2.checkIfEnclosureIsFull()) {
-            this.removeCreature(creature);
-            enclosure2.addCreature(creature);
+    public void moveCreatureBetweenEnclosures(Creature creature, Enclosure newEnclosure) {
+        if (!newEnclosure.checkIfEnclosureIsFull()) {
+            this.removeCreatureFromEnclosure(creature);
+            newEnclosure.addCreatureToEnclosure(creature);
         }
     }
 

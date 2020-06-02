@@ -3,8 +3,10 @@ package zoomanager.creature;
 import zoomanager.food.IFood;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
-public class Creature {
+public class Creature implements ICreature {
+
     private final String name;
     private final String type;
     private final ArrayList<IFood> stomach;
@@ -43,4 +45,8 @@ public class Creature {
         this.stomach.add(food);
     }
 
-} // End of class
+    @Override
+    public HashMap<String, String> getPreferences() {
+        return null;
+    }
+}

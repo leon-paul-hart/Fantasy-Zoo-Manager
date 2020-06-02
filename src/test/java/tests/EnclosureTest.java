@@ -45,32 +45,32 @@ public class EnclosureTest {
 
     @Test
     public void getEnclosureCreaturesTest() {
-        assertEquals(0, enclosure.getEnclosureCreatures().size());
+        assertEquals(0, enclosure.getEnclosureCreaturesList().size());
     }
 
     @Test
     public void countCreatures() {
-        assertEquals(0, enclosure.countCreatures());
+        assertEquals(0, enclosure.countEnclosureCreatures());
     }
 
     @Test
     public void addCreatureTest() {
-        enclosure.addCreature(creature);
-        assertEquals(1, enclosure.countCreatures());
+        enclosure.addCreatureToEnclosure(creature);
+        assertEquals(1, enclosure.countEnclosureCreatures());
     }
 
     @Test
     public void addTwoCreaturesTest() {
-        enclosure.addCreature(creature);
-        enclosure.addCreature(creature2);
-        assertEquals(2, enclosure.countCreatures());
+        enclosure.addCreatureToEnclosure(creature);
+        enclosure.addCreatureToEnclosure(creature2);
+        assertEquals(2, enclosure.countEnclosureCreatures());
     }
 
     @Test
     public void removeCreatureTest() {
-        enclosure.addCreature(creature);
-        enclosure.removeCreature(creature);
-        assertEquals(0, enclosure.countCreatures());
+        enclosure.addCreatureToEnclosure(creature);
+        enclosure.removeCreatureFromEnclosure(creature);
+        assertEquals(0, enclosure.countEnclosureCreatures());
     }
 
     @Test
@@ -80,37 +80,37 @@ public class EnclosureTest {
 
     @Test
     public void checkIfEnclosureIsNotEmpty() {
-        enclosure.addCreature(creature);
+        enclosure.addCreatureToEnclosure(creature);
         assertEquals(false, enclosure.checkIfEnclosureIsEmpty());
     }
 
     @Test
     public void checkIfEnclosureIsNotFullTest() {
-        enclosure.addCreature(creature);
-        enclosure.addCreature(creature2);
+        enclosure.addCreatureToEnclosure(creature);
+        enclosure.addCreatureToEnclosure(creature2);
         assertEquals(false, enclosure.checkIfEnclosureIsFull());
     }
 
     @Test
     public void checkIfEnclosureIsFullTest() {
-        enclosure.addCreature(creature);
-        enclosure.addCreature(creature2);
-        enclosure.addCreature(creature3);
+        enclosure.addCreatureToEnclosure(creature);
+        enclosure.addCreatureToEnclosure(creature2);
+        enclosure.addCreatureToEnclosure(creature3);
         assertEquals(true, enclosure.checkIfEnclosureIsFull());
     }
 
     @Test
     public void newEnclosureCountIncreasesByOneTest() {
-        enclosure.addCreature(creature);
+        enclosure.addCreatureToEnclosure(creature);
         enclosure.moveCreatureBetweenEnclosures(creature, enclosure2);
-        assertEquals(1, enclosure2.countCreatures());
+        assertEquals(1, enclosure2.countEnclosureCreatures());
     }
 
     @Test
     public void previousEnclosureDecreasesByOneTest() {
-        enclosure.addCreature(creature);
+        enclosure.addCreatureToEnclosure(creature);
         enclosure.moveCreatureBetweenEnclosures(creature, enclosure2);
-        assertEquals(0, enclosure.countCreatures());
+        assertEquals(0, enclosure.countEnclosureCreatures());
     }
 
 } // End of class

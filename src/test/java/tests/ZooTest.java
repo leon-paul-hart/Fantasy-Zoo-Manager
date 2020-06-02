@@ -4,8 +4,8 @@ import org.junit.Before;
 import org.junit.Test;
 import zoomanager.creature.Creature;
 import zoomanager.enclosure.Enclosure;
+import zoomanager.food.Food;
 import zoomanager.food.IFood;
-import zoomanager.food.types.PiriPiriChicken;
 import zoomanager.zoo.Zoo;
 
 import static org.junit.Assert.assertEquals;
@@ -24,7 +24,7 @@ public class ZooTest {
         creature = new Creature("Morchock", "Dragon");
         enclosure1 = new Enclosure("Volcanic Cave", "Fire", 3);
         enclosure2 = new Enclosure("Damp Cave", "Water", 2);
-        food = new PiriPiriChicken();
+        food = new Food("Spicy Haggis");
     }
 
     @Test
@@ -71,4 +71,4 @@ public class ZooTest {
         assertEquals(1, creature.getStomachContents());
     }
 
-} // End of class
+}
