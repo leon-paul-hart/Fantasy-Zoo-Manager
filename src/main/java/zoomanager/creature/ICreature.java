@@ -1,9 +1,23 @@
 package zoomanager.creature;
 
+import zoomanager.food.IFood;
+
 import java.util.HashMap;
 
 public interface ICreature {
 
-    HashMap<String, String> getPreferences();
+    String getCreatureName();
+
+    String getCreatureType();
+
+    int getStomachContents();
+
+    Boolean getHungerState();
+
+    Boolean getContainmentState();
+
+    void eat(IFood food);
+
+    String getPreferences();
 
 }

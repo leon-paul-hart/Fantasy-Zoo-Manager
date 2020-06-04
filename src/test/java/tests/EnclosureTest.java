@@ -22,9 +22,9 @@ public class EnclosureTest {
     public void before() {
         enclosure = new Enclosure("Volcanic Cave", "Fire", 3);
         enclosure2 = new Enclosure("Volcano Cliff Face", "Fire", 2);
-        creature = new Creature("Morchock", "Dragon");
-        creature2 = new Creature("Phoosh", "Phoenix");
-        creature3 = new Creature("Deimos", "Hellhound");
+        creature = new Creature("Morchock", "Dragon", "Spicy");
+        creature2 = new Creature("Phoosh", "Phoenix", "Spicy");
+        creature3 = new Creature("Deimos", "Hellhound", "Spicy");
         creatures = new ArrayList<>();
     }
 

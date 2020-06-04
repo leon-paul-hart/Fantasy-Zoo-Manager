@@ -26,9 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b102864-d880-45e5-869d-85ceebe9e6d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoomanager/zoo/IZoo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/zoo/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/creature/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/creature/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/creature/ICreature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/creature/ICreature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreatureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/EnclosureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/EnclosureTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ZooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ZooTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +94,7 @@
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="zoomanager.creature" />
       <recent name="zoomanager.zoo" />
       <recent name="zoomanager.enclosure" />
     </key>
@@ -104,27 +107,7 @@
       <recent name="C:\Users\leonp\source\repos\Java_Zoo_Manager\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.tests in Java_Zoo_Manager">
-    <configuration name="CreatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Zoo_Manager" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CreatureTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <dir value="$PROJECT_DIR$/tests" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Maven.Unnamed">
     <configuration name="EnclosureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Zoo_Manager" />
       <useClassPathOnly />
@@ -218,20 +201,45 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="JUnit.tests in Java_Zoo_Manager" />
-      <item itemvalue="JUnit.CreatureTest" />
       <item itemvalue="JUnit.EnclosureTest" />
       <item itemvalue="JUnit.MagicalCreatureTest" />
       <item itemvalue="JUnit.ZooTest" />
+      <item itemvalue="Maven.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.Unnamed" />
         <item itemvalue="JUnit.tests in Java_Zoo_Manager" />
         <item itemvalue="JUnit.ZooTest" />
         <item itemvalue="JUnit.MagicalCreatureTest" />
         <item itemvalue="JUnit.EnclosureTest" />
-        <item itemvalue="JUnit.CreatureTest" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591132548703</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated workspace.xml">
+      <created>1591132594145</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591132594145</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +353,8 @@
     <MESSAGE value="Removed &quot;Types&quot; of food and creatures, created an interface instead, adapted tests and removed some poor boolean logic in the process" />
     <MESSAGE value="updated project workspace.xml" />
     <MESSAGE value="added IZoo interface and some Todo's" />
-    <option name="LAST_COMMIT_MESSAGE" value="added IZoo interface and some Todo's" />
+    <MESSAGE value="updated workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="563" y="144" key="#CreatureTest" timestamp="1590868562504">
@@ -402,26 +418,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="635" y="234" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590871151459" />
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom" timestamp="1591132122843">
+    <state width="1874" height="369" key="GridCell.Tab.0.bottom" timestamp="1591265251573">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591132122843" />
-    <state width="1874" height="289" key="GridCell.Tab.0.center" timestamp="1591132122841">
+    <state width="1874" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591265251572" />
+    <state width="1874" height="369" key="GridCell.Tab.0.center" timestamp="1591265251566">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
-    <state width="1874" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591132122841" />
-    <state width="1874" height="289" key="GridCell.Tab.0.left" timestamp="1591132122840">
+    <state width="1874" height="369" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591265251566" />
+    <state width="1874" height="369" key="GridCell.Tab.0.left" timestamp="1591265251562">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488434" />
-    <state width="1874" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591132122840" />
-    <state width="1874" height="289" key="GridCell.Tab.0.right" timestamp="1591132122842">
+    <state width="1874" height="369" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591265251562" />
+    <state width="1874" height="369" key="GridCell.Tab.0.right" timestamp="1591265251569">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
-    <state width="1874" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591132122842" />
+    <state width="1874" height="369" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591265251569" />
     <state width="1877" height="333" key="GridCell.Tab.1.bottom" timestamp="1590875429504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -443,11 +459,11 @@
     </state>
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590873787837" />
     <state x="439" y="80" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1591130215899" />
-    <state x="549" y="199" width="802" height="521" key="Vcs.Push.Dialog.v2" timestamp="1591132551045">
+    <state x="548" y="177" width="802" height="521" key="Vcs.Push.Dialog.v2" timestamp="1591132598980">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875680934" />
-    <state x="549" y="199" width="802" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591132551045" />
+    <state x="548" y="177" width="802" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591132598980" />
     <state x="776" y="303" key="chooseDestDirectoryDialog" timestamp="1590868964172">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -456,6 +472,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="764" y="411" width="381" height="161" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591131313920" />
+    <state x="750" y="244" width="409" height="496" key="refactoring.ChangeSignatureDialog" timestamp="1591220340948">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="750" y="244" width="409" height="496" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1591220340948" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Zoo_Manager$CreatureTest.ic" NAME="CreatureTest Coverage Results" MODIFIED="1590868728894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -5,13 +5,17 @@ import org.junit.Before;
 import org.junit.Test;
 import zoomanager.creature.Creature;
 
+import java.util.HashMap;
+
+import static org.junit.Assert.assertEquals;
+
 public class CreatureTest {
 
     private Creature creature;
 
     @Before
     public void before() {
-        creature = new Creature("Spot", "Dog");
+        creature = new Creature("Spot", "Dog", "Spicy");
     }
 
     @Test
@@ -39,4 +43,9 @@ public class CreatureTest {
         Assert.assertEquals(false, creature.getContainmentState());
     }
 
-} // End of class
+    @Test
+    public void getFoodPreferencesTest() {
+        assertEquals("Spicy", creature.getPreferences());
+    }
+
+}

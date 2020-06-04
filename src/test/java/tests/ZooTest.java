@@ -22,7 +22,7 @@ public class ZooTest {
     @Before
     public void before() {
         IZoo = new Zoo("Zizis Zodiac Ziggarut!");
-        creature = new Creature("Morchock", "Dragon");
+        creature = new Creature("Morchock", "Dragon", "Spicy");
         enclosure1 = new Enclosure("Volcanic Cave", "Fire", 3);
         enclosure2 = new Enclosure("Damp Cave", "Water", 2);
         food = new Food("Spicy Haggis");
