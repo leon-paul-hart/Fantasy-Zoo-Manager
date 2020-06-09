@@ -27,11 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b102864-d880-45e5-869d-85ceebe9e6d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/creature/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/creature/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/creature/ICreature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/creature/ICreature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreatureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/EnclosureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/EnclosureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ZooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ZooTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591132594145</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Removed 'MagicalCreature' test class, moved its functionality into 'Creature' test class, fixed test errors and how 'food preferences' were being handled">
+      <created>1591265665131</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591265665131</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +356,8 @@
     <MESSAGE value="updated project workspace.xml" />
     <MESSAGE value="added IZoo interface and some Todo's" />
     <MESSAGE value="updated workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated workspace.xml" />
+    <MESSAGE value="Removed 'MagicalCreature' test class, moved its functionality into 'Creature' test class, fixed test errors and how 'food preferences' were being handled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed 'MagicalCreature' test class, moved its functionality into 'Creature' test class, fixed test errors and how 'food preferences' were being handled" />
   </component>
   <component name="WindowStateProjectService">
     <state x="563" y="144" key="#CreatureTest" timestamp="1590868562504">
@@ -418,26 +421,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="635" y="234" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590871151459" />
-    <state width="1874" height="369" key="GridCell.Tab.0.bottom" timestamp="1591265251573">
+    <state width="1874" height="369" key="GridCell.Tab.0.bottom" timestamp="1591265639314">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
-    <state width="1874" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591265251572" />
-    <state width="1874" height="369" key="GridCell.Tab.0.center" timestamp="1591265251566">
+    <state width="1874" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591265639314" />
+    <state width="1874" height="369" key="GridCell.Tab.0.center" timestamp="1591265639312">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
-    <state width="1874" height="369" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591265251566" />
-    <state width="1874" height="369" key="GridCell.Tab.0.left" timestamp="1591265251562">
+    <state width="1874" height="369" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591265639312" />
+    <state width="1874" height="369" key="GridCell.Tab.0.left" timestamp="1591265639312">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488434" />
-    <state width="1874" height="369" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591265251562" />
-    <state width="1874" height="369" key="GridCell.Tab.0.right" timestamp="1591265251569">
+    <state width="1874" height="369" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591265639312" />
+    <state width="1874" height="369" key="GridCell.Tab.0.right" timestamp="1591265639313">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875488435" />
-    <state width="1874" height="369" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591265251569" />
+    <state width="1874" height="369" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591265639313" />
     <state width="1877" height="333" key="GridCell.Tab.1.bottom" timestamp="1590875429504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -459,11 +462,11 @@
     </state>
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590873787837" />
     <state x="439" y="80" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1591130215899" />
-    <state x="548" y="177" width="802" height="521" key="Vcs.Push.Dialog.v2" timestamp="1591132598980">
+    <state x="547" y="155" width="802" height="521" key="Vcs.Push.Dialog.v2" timestamp="1591265669275">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590875680934" />
-    <state x="548" y="177" width="802" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591132598980" />
+    <state x="547" y="155" width="802" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591265669275" />
     <state x="776" y="303" key="chooseDestDirectoryDialog" timestamp="1590868964172">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
