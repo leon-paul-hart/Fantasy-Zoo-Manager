@@ -6,44 +6,44 @@ import java.util.ArrayList;
 
 public class Enclosure implements IEnclosure {
 
-    private final String EnclosureName;
-    private final String CreatureType;
-    private final int MaximumCapacity;
-    private final ArrayList<Creature> EnclosedCreatures;
+    private final String enclosureName;
+    private final String creatureType;
+    private final int maximumCapacity;
+    private final ArrayList<Creature> enclosedCreatures;
 
-    public Enclosure(String enclosureName, String creatureType, int maximumCapacity) {
-        this.EnclosureName = enclosureName;
-        this.CreatureType = creatureType;
-        this.MaximumCapacity = maximumCapacity;
-        this.EnclosedCreatures = new ArrayList<>();
+    public Enclosure(String name, String type, int capacity) {
+        this.enclosureName = name;
+        this.creatureType = type;
+        this.maximumCapacity = capacity;
+        this.enclosedCreatures = new ArrayList<>();
     }
 
     public String getEnclosureName() {
-        return this.EnclosureName;
+        return this.enclosureName;
     }
 
     public String getEnclosureType() {
-        return this.CreatureType;
+        return this.creatureType;
     }
 
     public int getEnclosureCapacity() {
-        return this.MaximumCapacity;
+        return this.maximumCapacity;
     }
 
     public int countEnclosureCreatures() {
-        return this.EnclosedCreatures.size();
+        return this.enclosedCreatures.size();
     }
 
     public ArrayList<Creature> getEnclosureCreaturesList() {
-        return this.EnclosedCreatures;
+        return this.enclosedCreatures;
     }
 
     public void addCreatureToEnclosure(Creature creature) {
-        this.EnclosedCreatures.add(creature);
+        this.enclosedCreatures.add(creature);
     }
 
     public void removeCreatureFromEnclosure(Creature creature) {
-        this.EnclosedCreatures.remove(creature);
+        this.enclosedCreatures.remove(creature);
     }
 
     public Boolean checkIfEnclosureIsEmpty() {

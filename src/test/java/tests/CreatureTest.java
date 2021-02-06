@@ -5,8 +5,6 @@ import org.junit.Before;
 import org.junit.Test;
 import zoomanager.creature.Creature;
 
-import java.util.HashMap;
-
 import static org.junit.Assert.assertEquals;
 
 public class CreatureTest {
@@ -19,32 +17,32 @@ public class CreatureTest {
     }
 
     @Test
-    public void getNameTest() {
+    public void getCreatureName() {
         Assert.assertEquals("Spot", creature.getCreatureName());
     }
 
     @Test
-    public void getTypeTest() {
+    public void getCreatureType() {
         Assert.assertEquals("Dog", creature.getCreatureType());
     }
 
     @Test
-    public void getStomachContentsTest() {
+    public void defaultStateStomachContentsIsEmpty() {
         Assert.assertEquals(0, creature.getStomachContents());
     }
 
     @Test
-    public void getIsHungryEqualsTrueTest() {
+    public void defaultStateIsHungryEqualsTrue() {
         Assert.assertEquals(true, creature.getHungerState());
     }
 
     @Test
-    public void getHasEnclosureEqualsTrueTest() {
+    public void defaultStateHasEnclosureEqualsFalse() {
         Assert.assertEquals(false, creature.getContainmentState());
     }
 
     @Test
-    public void getFoodPreferencesTest() {
+    public void getCreatureFoodPreferences() {
         assertEquals("Spicy", creature.getPreferences());
     }
 

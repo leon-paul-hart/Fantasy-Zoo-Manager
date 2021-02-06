@@ -5,8 +5,6 @@ import org.junit.Test;
 import zoomanager.creature.Creature;
 import zoomanager.enclosure.Enclosure;
 
-import java.util.ArrayList;
-
 import static org.junit.Assert.assertEquals;
 
 public class EnclosureTest {
@@ -16,7 +14,6 @@ public class EnclosureTest {
     private Creature creature;
     private Creature creature2;
     private Creature creature3;
-    private ArrayList<Creature> creatures;
 
     @Before
     public void before() {
@@ -25,7 +22,6 @@ public class EnclosureTest {
         creature = new Creature("Morchock", "Dragon", "Spicy");
         creature2 = new Creature("Phoosh", "Phoenix", "Spicy");
         creature3 = new Creature("Deimos", "Hellhound", "Spicy");
-        creatures = new ArrayList<>();
     }
 
     @Test
