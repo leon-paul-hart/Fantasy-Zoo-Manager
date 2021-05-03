@@ -1,6 +1,7 @@
 # Java Magical Creature Zoo Manager
 
 ![Java CI with Maven](https://github.com/leon-paul-hart/Java_Zoo_Manager/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
+[![CodeQL](https://github.com/leon-paul-hart/Java_Zoo_Manager/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/leon-paul-hart/Java_Zoo_Manager/actions/workflows/codeql-analysis.yml)
 
 ## A fantastical app for managing fantastical creatures comforts!
 
