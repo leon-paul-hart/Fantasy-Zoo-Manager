@@ -4,7 +4,7 @@ public class Food implements IFood {
 
     private final String FoodType;
 
-    public Food( String foodType ) {
+    public Food(String foodType) {
         this.FoodType = foodType;
     }
 
