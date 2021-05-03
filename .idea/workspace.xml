@@ -28,14 +28,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b102864-d880-45e5-869d-85ceebe9e6d3" name="Default Changelist" comment="Removed 'MagicalCreature' test class, moved its functionality into 'Creature' test class, fixed test errors and how 'food preferences' were being handled">
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.13.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/food/Food.java" afterDir="false" />
+    <list default="true" id="7b102864-d880-45e5-869d-85ceebe9e6d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Java_Zoo_Manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java_Zoo_Manager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zoomanager/creature/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomanager/creature/Creature.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,11 +98,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/tests" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.27332458" />
-    <property name="project.structure.side.proportion" value="0.5" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -139,7 +138,6 @@
       <dir value="$PROJECT_DIR$/tests" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="MagicalCreatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -159,7 +157,6 @@
       <dir value="$PROJECT_DIR$/tests" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="ZooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -179,7 +176,6 @@
       <dir value="$PROJECT_DIR$/tests" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -192,7 +188,6 @@
       <dir value="$PROJECT_DIR$/tests" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="tests in Java_Zoo_Manager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -212,7 +207,6 @@
       <dir value="$PROJECT_DIR$/tests" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
@@ -241,22 +235,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.tests in Java_Zoo_Manager" />
       <item itemvalue="JUnit.EnclosureTest" />
       <item itemvalue="JUnit.MagicalCreatureTest" />
       <item itemvalue="JUnit.ZooTest" />
+      <item itemvalue="JUnit.tests in Java_Zoo_Manager" />
       <item itemvalue="Maven.Unnamed" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.tests in Java_Zoo_Manager" />
+        <item itemvalue="JUnit.MagicalCreatureTest" />
         <item itemvalue="Maven.Unnamed" />
         <item itemvalue="JUnit.ZooTest" />
-        <item itemvalue="JUnit.MagicalCreatureTest" />
         <item itemvalue="JUnit.EnclosureTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -331,21 +326,7 @@
       <option name="project" value="LOCAL" />
       <updated>1591132594145</updated>
     </task>
-    <task id="LOCAL-00010" summary="Removed 'MagicalCreature' test class, moved its functionality into 'Creature' test class, fixed test errors and how 'food preferences' were being handled">
-      <created>1591265665131</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1591265665131</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Revert &quot;Removed 'MagicalCreature' test class, moved its functionality into 'Creature' test class, fixed test errors and how 'food preferences' were being handled&quot;&#10;&#10;This reverts commit 1babb1b3">
-      <created>1619989341508</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1619989341509</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,39 +363,33 @@
     <MESSAGE value="updated project workspace.xml" />
     <MESSAGE value="added IZoo interface and some Todo's" />
     <MESSAGE value="updated workspace.xml" />
-    <MESSAGE value="Removed 'MagicalCreature' test class, moved its functionality into 'Creature' test class, fixed test errors and how 'food preferences' were being handled" />
-    <MESSAGE value="Revert &quot;Removed 'MagicalCreature' test class, moved its functionality into 'Creature' test class, fixed test errors and how 'food preferences' were being handled&quot;&#10;&#10;This reverts commit 1babb1b3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Removed 'MagicalCreature' test class, moved its functionality into 'Creature' test class, fixed test errors and how 'food preferences' were being handled&quot;&#10;&#10;This reverts commit 1babb1b3" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <option name="LAST_COMMIT_MESSAGE" value="updated workspace.xml" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Magical_Creature_Zoo_Manager$EnclosureTest.ic" NAME="EnclosureTest Coverage Results" MODIFIED="1590874249429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$ZooTest.ic" NAME="ZooTest Coverage Results" MODIFIED="1590868744987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Magical_Creature_Zoo_Manager$ZooTest.ic" NAME="ZooTest Coverage Results" MODIFIED="1590874275443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$EnclosureTest.ic" NAME="EnclosureTest Coverage Results" MODIFIED="1590868737682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>tests.*</FILTER>
-    </SUITE>
+    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$All_in_Java_Zoo_Manager.ic" NAME="All in Java_Zoo_Manager Coverage Results" MODIFIED="1590868798096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Java_Zoo_Manager$CreatureTest.ic" NAME="CreatureTest Coverage Results" MODIFIED="1590868728894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>tests.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Magical_Creature_Zoo_Manager$MagicalCreatureTest.ic" NAME="MagicalCreatureTest Coverage Results" MODIFIED="1590874262725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>tests.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Magical_Creature_Zoo_Manager$CreatureTest.ic" NAME="CreatureTest Coverage Results" MODIFIED="1590874211287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Java_Zoo_Manager$tests_in_Java_Zoo_Manager.ic" NAME="tests in Java_Zoo_Manager Coverage Results" MODIFIED="1590874225360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$ZooTest.ic" NAME="ZooTest Coverage Results" MODIFIED="1590868744987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$EnclosureTest.ic" NAME="EnclosureTest Coverage Results" MODIFIED="1590868737682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Java_Zoo_Manager$All_in_Java_Zoo_Manager.ic" NAME="All in Java_Zoo_Manager Coverage Results" MODIFIED="1590868798096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Magical_Creature_Zoo_Manager$CreatureTest.ic" NAME="CreatureTest Coverage Results" MODIFIED="1590874211287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Magical_Creature_Zoo_Manager$EnclosureTest.ic" NAME="EnclosureTest Coverage Results" MODIFIED="1590874249429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Magical_Creature_Zoo_Manager$MagicalCreatureTest.ic" NAME="MagicalCreatureTest Coverage Results" MODIFIED="1610653186439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
   </component>
 </project>

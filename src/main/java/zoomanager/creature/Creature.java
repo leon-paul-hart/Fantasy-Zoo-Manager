@@ -10,16 +10,16 @@ public class Creature implements ICreature {
     private final String creatureType;
     private final String foodPreference;
     private final ArrayList<IFood> creatureStomach;
-    private final boolean isHungry;
-    private final boolean isContained;
+    private final boolean creatureIsHungry;
+    private final boolean creatureIsContained;
 
     public Creature(String name, String type, String foodPreference) {
         this.creatureName = name;
         this.creatureType = type;
         this.foodPreference = foodPreference;
         this.creatureStomach = new ArrayList<>();
-        this.isHungry = true;
-        this.isContained = false;
+        this.creatureIsHungry = true;
+        this.creatureIsContained = false;
     }
 
     public String getCreatureName() {
@@ -35,11 +35,11 @@ public class Creature implements ICreature {
     }
 
     public Boolean getHungerState() {
-        return this.isHungry;
+        return this.creatureIsHungry;
     }
 
     public Boolean getContainmentState() {
-        return this.isContained;
+        return this.creatureIsContained;
     }
 
     public void eat(IFood food) {
