@@ -22,14 +22,13 @@ public class Zoo implements IZoo {
         return this.name;
     }
 
-    // TODO: 02/06/2020 Move this to creature class
     public void feedCreature(Creature creature, IFood food) {
 
         if (creature.getHungerState()) {
             creature.eat(food);
         }
 
-        creature.getStomachContents();
+        creature.getStomachContentsCount();
     }
 
     public int countEnclosures() {

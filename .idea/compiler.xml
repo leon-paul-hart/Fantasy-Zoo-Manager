@@ -9,8 +9,8 @@
         <module name="Java_Zoo_Manager" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="15">
-      <module name="Java_Zoo_Manager" target="15" />
+    <bytecodeTargetLevel target="16">
+      <module name="Java_Zoo_Manager" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>

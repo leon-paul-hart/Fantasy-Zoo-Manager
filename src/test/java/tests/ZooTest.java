@@ -30,46 +30,88 @@ public class ZooTest {
 
     @Test
     public void getZooNameTest() {
+                
+        //Arrange
+
+        //Act
+
+        //Assert
         assertEquals("Zizis Zodiac Ziggarut!", IZoo.getZooName());
     }
 
     @Test
     public void new_Zoo_Has_Zero_Enclosures() {
+                
+        //Arrange
+
+        //Act
+
+        //Assert
         assertEquals(0, IZoo.countEnclosures());
     }
 
     @Test
     public void new_Zoo_Can_Add_An_Enclosure() {
+                
+        //Arrange
+
+        //Act
         IZoo.addEnclosure(enclosure1);
+
+        //Assert
         assertEquals(1, IZoo.countEnclosures());
     }
 
     @Test
     public void new_Zoo_Can_Add_Two_Enclosures() {
+                
+        //Arrange
+
+        //Act
         IZoo.addEnclosure(enclosure1);
         IZoo.addEnclosure(enclosure2);
+
+        //Assert
         assertEquals(2, IZoo.countEnclosures());
     }
 
     @Test
     public void new_Zoo_Can_Add_And_Remove_An_Enclosure() {
+        
+        //Arrange
         IZoo.addEnclosure(enclosure1);
+
+        //Act
         IZoo.removeEnclosure(enclosure1);
+
+        //Assert
         assertEquals(0, IZoo.countEnclosures());
     }
 
     @Test
     public void new_Zoo_Can_Add_Two_Enclosures_And_Remove_One_Enclosure() {
+
+        //Arrange
         IZoo.addEnclosure(enclosure1);
         IZoo.addEnclosure(enclosure2);
+        
+        //Act
         IZoo.removeEnclosure(enclosure1);
+
+        //Assert
         assertEquals(1, IZoo.countEnclosures());
     }
 
     @Test
     public void feedCreatureTest() {
+
+        //Arrange
+
+        //Act
         IZoo.feedCreature(creature, food);
-        assertEquals(1, creature.getStomachContents());
+
+        //Assert
+        assertEquals(1, creature.getStomachContentsCount());
     }
 
 }
