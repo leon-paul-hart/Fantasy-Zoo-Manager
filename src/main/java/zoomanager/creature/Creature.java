@@ -9,9 +9,9 @@ public class Creature implements ICreature {
     private final String creatureName;
     private final String creatureType;
     private final String foodPreference;
-    private final ArrayList<IFood> creatureStomach;
-    private final boolean creatureIsHungry;
-    private final boolean creatureIsContained;
+    private ArrayList<IFood> creatureStomach;
+    private boolean creatureIsHungry;
+    private boolean creatureIsContained;
 
     public Creature(String name, String type, String foodPreference) {
         this.creatureName = name;
@@ -30,7 +30,7 @@ public class Creature implements ICreature {
         return this.creatureType;
     }
 
-    public int getStomachContents() {
+    public int getStomachContentsCount() {
         return this.creatureStomach.size();
     }
 
@@ -43,7 +43,12 @@ public class Creature implements ICreature {
     }
 
     public void eat(IFood food) {
+        
         this.creatureStomach.add(food);
+
+        if (creatureStomach.size() > 0) {
+            this.creatureIsHungry = false;
+        }
     }
 
     public String getPreferences() {

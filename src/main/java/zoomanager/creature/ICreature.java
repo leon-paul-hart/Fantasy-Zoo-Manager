@@ -8,7 +8,7 @@ public interface ICreature {
 
     String getCreatureType();
 
-    int getStomachContents();
+    int getStomachContentsCount();
 
     Boolean getHungerState();
 
